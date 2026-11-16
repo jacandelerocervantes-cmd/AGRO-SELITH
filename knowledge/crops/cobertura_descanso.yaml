@@ -1,0 +1,100 @@
+# VALORES DE RELLENO PROVISIONALES para desarrollo del motor. NO usar con agricultores.
+_prov: &prov {fuente: "pendiente de validación INIFAP/extensionista", estatus: provisional}
+_idx: &idx {unidad: "índice relativo 0-1", fuente: "pendiente de validación INIFAP/extensionista", estatus: provisional}
+
+opciones:
+  - id: mucuna_abono_verde
+    nombre: Abono verde de mucuna
+    tipo: [abono_verde, leguminosa]
+    familias: [fabaceae]
+    hospedantes: []
+    es_barbecho: true
+    es_barbecho_desnudo: false
+    parametros:
+      agua_mm_ciclo: {valor: 250, unidad: mm/ciclo, <<: *prov}
+      tolerancia_sequia: {valor: 3, unidad: "escala 1-5", <<: *prov}
+      sensibilidad_canicula: {valor: 0.2, unidad: "índice 0-1", <<: *prov}
+      ingreso_ref_mxn_ha: {valor: 0, unidad: MXN/ha, <<: *prov}
+      n_aporte_kg_ha: {valor: 80, unidad: kg N/ha, <<: *prov}
+      mo_aporte: {valor: 0.8, unidad: "índice relativo", <<: *prov}
+    utilidades:
+      agua_eficiencia: {valor: 0.5, <<: *idx}
+      fijacion_n: {valor: 0.9, <<: *idx}
+      materia_organica: {valor: 0.9, <<: *idx}
+      control_erosion: {valor: 0.9, <<: *idx}
+      infiltracion: {valor: 0.6, <<: *idx}
+      ruptura_plagas: {valor: 0.8, <<: *idx}
+      valor_forrajero: {valor: 0.3, <<: *idx}
+      estabilidad_ingreso: {valor: 0.2, <<: *idx}
+
+  - id: canavalia_cobertura
+    nombre: Cobertura de canavalia
+    tipo: [cobertura, leguminosa]
+    familias: [fabaceae]
+    hospedantes: []
+    es_barbecho: true
+    es_barbecho_desnudo: false
+    parametros:
+      agua_mm_ciclo: {valor: 230, unidad: mm/ciclo, <<: *prov}
+      tolerancia_sequia: {valor: 4, unidad: "escala 1-5", <<: *prov}
+      sensibilidad_canicula: {valor: 0.1, unidad: "índice 0-1", <<: *prov}
+      ingreso_ref_mxn_ha: {valor: 0, unidad: MXN/ha, <<: *prov}
+      n_aporte_kg_ha: {valor: 60, unidad: kg N/ha, <<: *prov}
+      mo_aporte: {valor: 0.6, unidad: "índice relativo", <<: *prov}
+    utilidades:
+      agua_eficiencia: {valor: 0.6, <<: *idx}
+      fijacion_n: {valor: 0.8, <<: *idx}
+      materia_organica: {valor: 0.7, <<: *idx}
+      control_erosion: {valor: 0.8, <<: *idx}
+      infiltracion: {valor: 0.6, <<: *idx}
+      ruptura_plagas: {valor: 0.8, <<: *idx}
+      valor_forrajero: {valor: 0.6, <<: *idx}
+      estabilidad_ingreso: {valor: 0.2, <<: *idx}
+
+  - id: acahual_descanso
+    nombre: Descanso con acahual
+    tipo: [descanso]
+    familias: []
+    hospedantes: []
+    es_barbecho: true
+    es_barbecho_desnudo: false
+    parametros:
+      agua_mm_ciclo: {valor: 0, unidad: mm/ciclo, <<: *prov}
+      tolerancia_sequia: {valor: 5, unidad: "escala 1-5", <<: *prov}
+      sensibilidad_canicula: {valor: 0.0, unidad: "índice 0-1", <<: *prov}
+      ingreso_ref_mxn_ha: {valor: 0, unidad: MXN/ha, <<: *prov}
+      n_aporte_kg_ha: {valor: 20, unidad: kg N/ha, <<: *prov}
+      mo_aporte: {valor: 0.5, unidad: "índice relativo", <<: *prov}
+    utilidades:
+      agua_eficiencia: {valor: 0.7, <<: *idx}
+      fijacion_n: {valor: 0.3, <<: *idx}
+      materia_organica: {valor: 0.6, <<: *idx}
+      control_erosion: {valor: 0.7, <<: *idx}
+      infiltracion: {valor: 0.7, <<: *idx}
+      ruptura_plagas: {valor: 0.9, <<: *idx}
+      valor_forrajero: {valor: 0.2, <<: *idx}
+      estabilidad_ingreso: {valor: 0.1, <<: *idx}
+
+  - id: barbecho_desnudo
+    nombre: Barbecho sin cobertura
+    tipo: [barbecho]
+    familias: []
+    hospedantes: []
+    es_barbecho: true
+    es_barbecho_desnudo: true
+    parametros:
+      agua_mm_ciclo: {valor: 0, unidad: mm/ciclo, <<: *prov}
+      tolerancia_sequia: {valor: 5, unidad: "escala 1-5", <<: *prov}
+      sensibilidad_canicula: {valor: 0.0, unidad: "índice 0-1", <<: *prov}
+      ingreso_ref_mxn_ha: {valor: 0, unidad: MXN/ha, <<: *prov}
+      n_aporte_kg_ha: {valor: 0, unidad: kg N/ha, <<: *prov}
+      mo_aporte: {valor: -0.1, unidad: "índice relativo", <<: *prov}
+    utilidades:
+      agua_eficiencia: {valor: 0.5, <<: *idx}
+      fijacion_n: {valor: 0.0, <<: *idx}
+      materia_organica: {valor: 0.0, <<: *idx}
+      control_erosion: {valor: 0.0, <<: *idx}
+      infiltracion: {valor: 0.3, <<: *idx}
+      ruptura_plagas: {valor: 0.8, <<: *idx}
+      valor_forrajero: {valor: 0.0, <<: *idx}
+      estabilidad_ingreso: {valor: 0.0, <<: *idx}

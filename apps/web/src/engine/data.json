@@ -1,0 +1,380 @@
+{
+ "baseId": "milpa_tradicional",
+ "cuotaMax": 0.15,
+ "escenarios": {
+  "canicula_prolongada": {
+   "factorDemandaAgua": 1.0,
+   "factorEstresIngreso": 0.6,
+   "id": "canicula_prolongada",
+   "severidadCanicula": 0.8,
+   "toleranciaMinima": 2
+  },
+  "huracan": {
+   "factorDemandaAgua": 1.0,
+   "factorEstresIngreso": 0.5,
+   "id": "huracan",
+   "severidadCanicula": 0.3,
+   "toleranciaMinima": 1
+  },
+  "normal": {
+   "factorDemandaAgua": 1.0,
+   "factorEstresIngreso": 0.0,
+   "id": "normal",
+   "severidadCanicula": 0.0,
+   "toleranciaMinima": 1
+  },
+  "temporal_tardio": {
+   "factorDemandaAgua": 1.0,
+   "factorEstresIngreso": 0.4,
+   "id": "temporal_tardio",
+   "severidadCanicula": 0.4,
+   "toleranciaMinima": 2
+  }
+ },
+ "grupos": {
+  "agua": [
+   "agua_eficiencia",
+   "proteccion_etapas"
+  ],
+  "forraje": [
+   "valor_forrajero"
+  ],
+  "ingreso": [
+   "ingreso_neto",
+   "estabilidad_ingreso"
+  ],
+  "suelo": [
+   "fijacion_n",
+   "materia_organica",
+   "control_erosion",
+   "infiltracion"
+  ]
+ },
+ "lambdas": {
+  "barbecho_excesivo": 3.0,
+  "concentracion_riesgo": 0.5,
+  "dependencia_monocultivo": 0.5
+ },
+ "opciones": [
+  {
+   "aguaMm": 250.0,
+   "capacidadAbsorcionHa": null,
+   "esBarbecho": true,
+   "esBarbechoDesnudo": false,
+   "familias": [
+    "fabaceae"
+   ],
+   "hospedantes": [],
+   "id": "mucuna_abono_verde",
+   "ingresoMxnHa": 0.0,
+   "moAporte": 0.8,
+   "nAporteKgHa": 80.0,
+   "nombre": "Abono verde de mucuna",
+   "sensibilidadCanicula": 0.2,
+   "sintetico": false,
+   "toleranciaSequia": 3,
+   "utilidades": {
+    "agua_eficiencia": 0.5,
+    "control_erosion": 0.9,
+    "estabilidad_ingreso": 0.2,
+    "fijacion_n": 0.9,
+    "infiltracion": 0.6,
+    "materia_organica": 0.9,
+    "ruptura_plagas": 0.8,
+    "valor_forrajero": 0.3
+   }
+  },
+  {
+   "aguaMm": 230.0,
+   "capacidadAbsorcionHa": null,
+   "esBarbecho": true,
+   "esBarbechoDesnudo": false,
+   "familias": [
+    "fabaceae"
+   ],
+   "hospedantes": [],
+   "id": "canavalia_cobertura",
+   "ingresoMxnHa": 0.0,
+   "moAporte": 0.6,
+   "nAporteKgHa": 60.0,
+   "nombre": "Cobertura de canavalia",
+   "sensibilidadCanicula": 0.1,
+   "sintetico": false,
+   "toleranciaSequia": 4,
+   "utilidades": {
+    "agua_eficiencia": 0.6,
+    "control_erosion": 0.8,
+    "estabilidad_ingreso": 0.2,
+    "fijacion_n": 0.8,
+    "infiltracion": 0.6,
+    "materia_organica": 0.7,
+    "ruptura_plagas": 0.8,
+    "valor_forrajero": 0.6
+   }
+  },
+  {
+   "aguaMm": 0.0,
+   "capacidadAbsorcionHa": null,
+   "esBarbecho": true,
+   "esBarbechoDesnudo": false,
+   "familias": [],
+   "hospedantes": [],
+   "id": "acahual_descanso",
+   "ingresoMxnHa": 0.0,
+   "moAporte": 0.5,
+   "nAporteKgHa": 20.0,
+   "nombre": "Descanso con acahual",
+   "sensibilidadCanicula": 0.0,
+   "sintetico": false,
+   "toleranciaSequia": 5,
+   "utilidades": {
+    "agua_eficiencia": 0.7,
+    "control_erosion": 0.7,
+    "estabilidad_ingreso": 0.1,
+    "fijacion_n": 0.3,
+    "infiltracion": 0.7,
+    "materia_organica": 0.6,
+    "ruptura_plagas": 0.9,
+    "valor_forrajero": 0.2
+   }
+  },
+  {
+   "aguaMm": 0.0,
+   "capacidadAbsorcionHa": null,
+   "esBarbecho": true,
+   "esBarbechoDesnudo": true,
+   "familias": [],
+   "hospedantes": [],
+   "id": "barbecho_desnudo",
+   "ingresoMxnHa": 0.0,
+   "moAporte": -0.1,
+   "nAporteKgHa": 0.0,
+   "nombre": "Barbecho sin cobertura",
+   "sensibilidadCanicula": 0.0,
+   "sintetico": false,
+   "toleranciaSequia": 5,
+   "utilidades": {
+    "agua_eficiencia": 0.5,
+    "control_erosion": 0.0,
+    "estabilidad_ingreso": 0.0,
+    "fijacion_n": 0.0,
+    "infiltracion": 0.3,
+    "materia_organica": 0.0,
+    "ruptura_plagas": 0.8,
+    "valor_forrajero": 0.0
+   }
+  },
+  {
+   "aguaMm": 500.0,
+   "capacidadAbsorcionHa": null,
+   "esBarbecho": false,
+   "esBarbechoDesnudo": false,
+   "familias": [
+    "poaceae"
+   ],
+   "hospedantes": [],
+   "id": "maiz_monocultivo",
+   "ingresoMxnHa": 9000.0,
+   "moAporte": 0.0,
+   "nAporteKgHa": -20.0,
+   "nombre": "Maíz solo (variedad de ciclo normal)",
+   "sensibilidadCanicula": 0.9,
+   "sintetico": false,
+   "toleranciaSequia": 2,
+   "utilidades": {
+    "agua_eficiencia": 0.35,
+    "control_erosion": 0.4,
+    "estabilidad_ingreso": 0.4,
+    "fijacion_n": 0.0,
+    "infiltracion": 0.5,
+    "materia_organica": 0.3,
+    "ruptura_plagas": 0.3,
+    "valor_forrajero": 0.5
+   }
+  },
+  {
+   "aguaMm": 300.0,
+   "capacidadAbsorcionHa": 40,
+   "esBarbecho": false,
+   "esBarbechoDesnudo": false,
+   "familias": [
+    "cucurbitaceae"
+   ],
+   "hospedantes": [],
+   "id": "calabaza_pepita",
+   "ingresoMxnHa": 11000.0,
+   "moAporte": 0.1,
+   "nAporteKgHa": -10.0,
+   "nombre": "Calabaza para pepita",
+   "sensibilidadCanicula": 0.5,
+   "sintetico": true,
+   "toleranciaSequia": 3,
+   "utilidades": {
+    "agua_eficiencia": 0.6,
+    "control_erosion": 0.6,
+    "estabilidad_ingreso": 0.4,
+    "fijacion_n": 0.0,
+    "infiltracion": 0.5,
+    "materia_organica": 0.4,
+    "ruptura_plagas": 0.7,
+    "valor_forrajero": 0.1
+   }
+  },
+  {
+   "aguaMm": 320.0,
+   "capacidadAbsorcionHa": 30,
+   "esBarbecho": false,
+   "esBarbechoDesnudo": false,
+   "familias": [
+    "fabaceae"
+   ],
+   "hospedantes": [],
+   "id": "frijol_xpelon",
+   "ingresoMxnHa": 8000.0,
+   "moAporte": 0.3,
+   "nAporteKgHa": 30.0,
+   "nombre": "Frijol xpelón",
+   "sensibilidadCanicula": 0.7,
+   "sintetico": true,
+   "toleranciaSequia": 3,
+   "utilidades": {
+    "agua_eficiencia": 0.6,
+    "control_erosion": 0.5,
+    "estabilidad_ingreso": 0.4,
+    "fijacion_n": 0.7,
+    "infiltracion": 0.5,
+    "materia_organica": 0.5,
+    "ruptura_plagas": 0.7,
+    "valor_forrajero": 0.4
+   }
+  },
+  {
+   "aguaMm": 600.0,
+   "capacidadAbsorcionHa": 20,
+   "esBarbecho": false,
+   "esBarbechoDesnudo": false,
+   "familias": [
+    "solanaceae"
+   ],
+   "hospedantes": [
+    "virus_solanaceas"
+   ],
+   "id": "chile_habanero",
+   "ingresoMxnHa": 40000.0,
+   "moAporte": -0.1,
+   "nAporteKgHa": -30.0,
+   "nombre": "Chile habanero",
+   "sensibilidadCanicula": 0.8,
+   "sintetico": true,
+   "toleranciaSequia": 2,
+   "utilidades": {
+    "agua_eficiencia": 0.3,
+    "control_erosion": 0.3,
+    "estabilidad_ingreso": 0.3,
+    "fijacion_n": 0.0,
+    "infiltracion": 0.4,
+    "materia_organica": 0.2,
+    "ruptura_plagas": 0.5,
+    "valor_forrajero": 0.0
+   }
+  },
+  {
+   "aguaMm": 450.0,
+   "capacidadAbsorcionHa": null,
+   "esBarbecho": false,
+   "esBarbechoDesnudo": false,
+   "familias": [
+    "cucurbitaceae",
+    "fabaceae",
+    "poaceae"
+   ],
+   "hospedantes": [],
+   "id": "milpa_tradicional",
+   "ingresoMxnHa": 12000.0,
+   "moAporte": 0.3,
+   "nAporteKgHa": 10.0,
+   "nombre": "Milpa (maíz, frijol y calabaza)",
+   "sensibilidadCanicula": 0.8,
+   "sintetico": false,
+   "toleranciaSequia": 3,
+   "utilidades": {
+    "agua_eficiencia": 0.55,
+    "control_erosion": 0.7,
+    "estabilidad_ingreso": 0.6,
+    "fijacion_n": 0.4,
+    "infiltracion": 0.5,
+    "materia_organica": 0.5,
+    "ruptura_plagas": 0.5,
+    "valor_forrajero": 0.5
+   }
+  },
+  {
+   "aguaMm": 380.0,
+   "capacidadAbsorcionHa": null,
+   "esBarbecho": false,
+   "esBarbechoDesnudo": false,
+   "familias": [
+    "cucurbitaceae",
+    "fabaceae",
+    "poaceae"
+   ],
+   "hospedantes": [],
+   "id": "milpa_ciclo_corto_criollo",
+   "ingresoMxnHa": 10000.0,
+   "moAporte": 0.3,
+   "nAporteKgHa": 10.0,
+   "nombre": "Milpa con maíz criollo de ciclo corto",
+   "sensibilidadCanicula": 0.45,
+   "sintetico": false,
+   "toleranciaSequia": 3,
+   "utilidades": {
+    "agua_eficiencia": 0.7,
+    "control_erosion": 0.7,
+    "estabilidad_ingreso": 0.6,
+    "fijacion_n": 0.4,
+    "infiltracion": 0.5,
+    "materia_organica": 0.5,
+    "ruptura_plagas": 0.5,
+    "valor_forrajero": 0.4
+   }
+  }
+ ],
+ "pesosDefecto": {
+  "agua_eficiencia": 1.0,
+  "control_erosion": 0.5,
+  "estabilidad_ingreso": 0.5,
+  "fijacion_n": 1.0,
+  "infiltracion": 0.5,
+  "ingreso_neto": 1.0,
+  "materia_organica": 1.0,
+  "proteccion_etapas": 1.5,
+  "ruptura_plagas": 1.0,
+  "valor_forrajero": 0.5
+ },
+ "reglas": [
+  {
+   "aniosMin": 2,
+   "id": "chile_intervalo_retorno",
+   "selectorA": "id:chile_habanero",
+   "selectorB": "id:chile_habanero",
+   "severidad": 3,
+   "tipo": "intervalo_retorno"
+  },
+  {
+   "aniosMin": 1,
+   "id": "hospedante_virus_solanaceas",
+   "selectorA": "host:virus_solanaceas",
+   "selectorB": "host:virus_solanaceas",
+   "severidad": 3,
+   "tipo": "hospedante_comun"
+  },
+  {
+   "aniosMin": 1,
+   "id": "cucurbitaceas_consecutivas",
+   "selectorA": "fam:cucurbitaceae",
+   "selectorB": "fam:cucurbitaceae",
+   "severidad": 2,
+   "tipo": "familia_consecutiva"
+  }
+ ]
+}

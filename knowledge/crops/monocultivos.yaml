@@ -1,0 +1,101 @@
+# VALORES DE RELLENO PROVISIONALES para desarrollo del motor. NO usar con agricultores.
+# Todo pendiente de validación por INIFAP (Campo Experimental Mocochá) / extensionistas.
+_prov: &prov {fuente: "pendiente de validación INIFAP/extensionista", estatus: provisional}
+_idx: &idx {unidad: "índice relativo 0-1", fuente: "pendiente de validación INIFAP/extensionista", estatus: provisional}
+
+opciones:
+  - id: maiz_monocultivo
+    nombre: Maíz solo (variedad de ciclo normal)
+    tipo: [monocultivo]
+    familias: [poaceae]
+    hospedantes: []
+    es_barbecho: false
+    es_barbecho_desnudo: false
+    parametros:
+      agua_mm_ciclo: {valor: 500, unidad: mm/ciclo, <<: *prov}
+      tolerancia_sequia: {valor: 2, unidad: "escala 1-5", <<: *prov}
+      sensibilidad_canicula: {valor: 0.9, unidad: "índice 0-1", <<: *prov}
+      ingreso_ref_mxn_ha: {valor: 9000, unidad: MXN/ha, <<: *prov}
+      n_aporte_kg_ha: {valor: -20, unidad: kg N/ha, <<: *prov}
+      mo_aporte: {valor: 0.0, unidad: "índice relativo", <<: *prov}
+    utilidades:
+      agua_eficiencia: {valor: 0.35, <<: *idx}
+      fijacion_n: {valor: 0.0, <<: *idx}
+      materia_organica: {valor: 0.3, <<: *idx}
+      control_erosion: {valor: 0.4, <<: *idx}
+      infiltracion: {valor: 0.5, <<: *idx}
+      ruptura_plagas: {valor: 0.3, <<: *idx}
+      valor_forrajero: {valor: 0.5, <<: *idx}
+      estabilidad_ingreso: {valor: 0.4, <<: *idx}
+
+  - id: calabaza_pepita
+    nombre: Calabaza para pepita
+    tipo: [monocultivo]
+    familias: [cucurbitaceae]
+    hospedantes: []
+    es_barbecho: false
+    es_barbecho_desnudo: false
+    parametros:
+      agua_mm_ciclo: {valor: 300, unidad: mm/ciclo, <<: *prov}
+      tolerancia_sequia: {valor: 3, unidad: "escala 1-5", <<: *prov}
+      sensibilidad_canicula: {valor: 0.5, unidad: "índice 0-1", <<: *prov}
+      ingreso_ref_mxn_ha: {valor: 11000, unidad: MXN/ha, <<: *prov}
+      n_aporte_kg_ha: {valor: -10, unidad: kg N/ha, <<: *prov}
+      mo_aporte: {valor: 0.1, unidad: "índice relativo", <<: *prov}
+    utilidades:
+      agua_eficiencia: {valor: 0.6, <<: *idx}
+      fijacion_n: {valor: 0.0, <<: *idx}
+      materia_organica: {valor: 0.4, <<: *idx}
+      control_erosion: {valor: 0.6, <<: *idx}
+      infiltracion: {valor: 0.5, <<: *idx}
+      ruptura_plagas: {valor: 0.7, <<: *idx}
+      valor_forrajero: {valor: 0.1, <<: *idx}
+      estabilidad_ingreso: {valor: 0.4, <<: *idx}
+
+  - id: frijol_xpelon
+    nombre: Frijol xpelón
+    tipo: [monocultivo, leguminosa]
+    familias: [fabaceae]
+    hospedantes: []
+    es_barbecho: false
+    es_barbecho_desnudo: false
+    parametros:
+      agua_mm_ciclo: {valor: 320, unidad: mm/ciclo, <<: *prov}
+      tolerancia_sequia: {valor: 3, unidad: "escala 1-5", <<: *prov}
+      sensibilidad_canicula: {valor: 0.7, unidad: "índice 0-1", <<: *prov}
+      ingreso_ref_mxn_ha: {valor: 8000, unidad: MXN/ha, <<: *prov}
+      n_aporte_kg_ha: {valor: 30, unidad: kg N/ha, <<: *prov}
+      mo_aporte: {valor: 0.3, unidad: "índice relativo", <<: *prov}
+    utilidades:
+      agua_eficiencia: {valor: 0.6, <<: *idx}
+      fijacion_n: {valor: 0.7, <<: *idx}
+      materia_organica: {valor: 0.5, <<: *idx}
+      control_erosion: {valor: 0.5, <<: *idx}
+      infiltracion: {valor: 0.5, <<: *idx}
+      ruptura_plagas: {valor: 0.7, <<: *idx}
+      valor_forrajero: {valor: 0.4, <<: *idx}
+      estabilidad_ingreso: {valor: 0.4, <<: *idx}
+
+  - id: chile_habanero
+    nombre: Chile habanero
+    tipo: [monocultivo, hortaliza]
+    familias: [solanaceae]
+    hospedantes: [virus_solanaceas]
+    es_barbecho: false
+    es_barbecho_desnudo: false
+    parametros:
+      agua_mm_ciclo: {valor: 600, unidad: mm/ciclo, <<: *prov}
+      tolerancia_sequia: {valor: 2, unidad: "escala 1-5", <<: *prov}
+      sensibilidad_canicula: {valor: 0.8, unidad: "índice 0-1", <<: *prov}
+      ingreso_ref_mxn_ha: {valor: 40000, unidad: MXN/ha, <<: *prov}
+      n_aporte_kg_ha: {valor: -30, unidad: kg N/ha, <<: *prov}
+      mo_aporte: {valor: -0.1, unidad: "índice relativo", <<: *prov}
+    utilidades:
+      agua_eficiencia: {valor: 0.3, <<: *idx}
+      fijacion_n: {valor: 0.0, <<: *idx}
+      materia_organica: {valor: 0.2, <<: *idx}
+      control_erosion: {valor: 0.3, <<: *idx}
+      infiltracion: {valor: 0.4, <<: *idx}
+      ruptura_plagas: {valor: 0.5, <<: *idx}
+      valor_forrajero: {valor: 0.0, <<: *idx}
+      estabilidad_ingreso: {valor: 0.3, <<: *idx}

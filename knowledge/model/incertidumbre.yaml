@@ -1,0 +1,34 @@
+# Parámetros de la fusión espacial (F3). PROVISIONALES: los fija/valida el experto.
+_p: &p {fuente: "pendiente de validación INIFAP/extensionista", estatus: provisional}
+
+incertidumbre:
+  - id: pisos_clima
+    nombre: Desviación mínima asignada a una variable climática fusionada
+    parametros:
+      precip_mm: {valor: 0.5, unidad: mm/día, <<: *p}
+      temp_c: {valor: 0.5, unidad: °C, <<: *p}
+      rad_mj: {valor: 0.5, unidad: MJ/m²/día, <<: *p}
+      et0_mm: {valor: 0.3, unidad: mm/día, <<: *p}
+  - id: suelo_karst
+    nombre: Incertidumbre relativa de SoilGrids en terreno kárstico
+    parametros:
+      cv_relativo: {valor: 0.5, unidad: "fracción del valor", <<: *p}
+      # Medido en EE. UU. (1 punto, condado de Hidalgo, TX): SoilGrids vs SSURGO. Arcilla/arena/pH ~3-12 %, materia orgánica ~200 %.
+      # Referencia de orden de magnitud, no transferible tal cual a Tizimín (otro suelo): sigue provisional.
+      cv_relativo_medido_hidalgo: {valor: 0.57, unidad: "fracción del valor", fuente: "docs/validacion_eeuu.json (SSURGO vs SoilGrids, 1 punto)", estatus: provisional}
+  - id: vegetacion
+    nombre: Disponibilidad de imágenes ópticas útiles
+    parametros:
+      umbral_nubes_pct: {valor: 20, unidad: "%", <<: *p}
+      fraccion_minima_optica: {valor: 0.5, unidad: fracción, <<: *p}
+  - id: canicula
+    nombre: Ventana y umbral para medir la racha seca de la canícula
+    parametros:
+      mes_inicio: {valor: 7, unidad: mes, <<: *p}
+      mes_fin: {valor: 8, unidad: mes, <<: *p}
+      dia_seco_mm: {valor: 1.0, unidad: mm/día, <<: *p}
+  - id: armonizacion
+    nombre: Paso de resoluciones nativas a la rejilla común de 100 m
+    parametros:
+      factor_downscale: {valor: 0.1, unidad: "fracción del valor por década de resolución", <<: *p}
+      sd_minimo_fraccion: {valor: 0.02, unidad: "fracción del valor", <<: *p}

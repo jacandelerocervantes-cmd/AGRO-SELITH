@@ -1,0 +1,3170 @@
+[
+ {
+  "areaHa": 2.0,
+  "escenario": "canicula_prolongada",
+  "planes": [
+   {
+    "aguaTotalMm": 1220.0,
+    "deltaMo": 1.8,
+    "deltaN": 140.0,
+    "factores": {
+     "agua_eficiencia": 0.6499999999999999,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.375,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.2,
+     "fijacion_n": 0.6,
+     "infiltracion": 0.275,
+     "ingreso_neto": 0.098,
+     "materia_organica": 0.6,
+     "proteccion_etapas": 1.1699999999999997,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.25
+    },
+    "ingresoEstimado": 31360.0,
+    "riesgoPlaga": 0.35,
+    "score": 4.867999999999999,
+    "secuencia": [
+     "canavalia_cobertura",
+     "milpa_ciclo_corto_criollo",
+     "canavalia_cobertura",
+     "milpa_ciclo_corto_criollo"
+    ]
+   },
+   {
+    "aguaTotalMm": 1220.0,
+    "deltaMo": 1.7999999999999998,
+    "deltaN": 140.0,
+    "factores": {
+     "agua_eficiencia": 0.6499999999999999,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.375,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.19999999999999998,
+     "fijacion_n": 0.6000000000000001,
+     "infiltracion": 0.275,
+     "ingreso_neto": 0.098,
+     "materia_organica": 0.6,
+     "proteccion_etapas": 1.17,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.25
+    },
+    "ingresoEstimado": 31360.0,
+    "riesgoPlaga": 0.35,
+    "score": 4.868,
+    "secuencia": [
+     "milpa_ciclo_corto_criollo",
+     "canavalia_cobertura",
+     "milpa_ciclo_corto_criollo",
+     "canavalia_cobertura"
+    ]
+   },
+   {
+    "aguaTotalMm": 1240.0,
+    "deltaMo": 2.0,
+    "deltaN": 160.0,
+    "factores": {
+     "agua_eficiencia": 0.625,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.38749999999999996,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.19999999999999998,
+     "fijacion_n": 0.625,
+     "infiltracion": 0.275,
+     "ingreso_neto": 0.098,
+     "materia_organica": 0.6499999999999999,
+     "proteccion_etapas": 1.1400000000000001,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.21250000000000002
+    },
+    "ingresoEstimado": 31360.0,
+    "riesgoPlaga": 0.35,
+    "score": 4.863,
+    "secuencia": [
+     "milpa_ciclo_corto_criollo",
+     "mucuna_abono_verde",
+     "milpa_ciclo_corto_criollo",
+     "canavalia_cobertura"
+    ]
+   }
+  ],
+  "prioridades": {
+   "agua": 3,
+   "forraje": 3,
+   "ingreso": 3,
+   "suelo": 3
+  }
+ },
+ {
+  "areaHa": 18.0,
+  "escenario": "canicula_prolongada",
+  "planes": [
+   {
+    "aguaTotalMm": 1220.0,
+    "deltaMo": 1.8,
+    "deltaN": 140.0,
+    "factores": {
+     "agua_eficiencia": 0.6499999999999999,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.375,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.2,
+     "fijacion_n": 0.6,
+     "infiltracion": 0.275,
+     "ingreso_neto": 0.098,
+     "materia_organica": 0.6,
+     "proteccion_etapas": 1.1699999999999997,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.25
+    },
+    "ingresoEstimado": 282240.0,
+    "riesgoPlaga": 0.35,
+    "score": 4.867999999999999,
+    "secuencia": [
+     "canavalia_cobertura",
+     "milpa_ciclo_corto_criollo",
+     "canavalia_cobertura",
+     "milpa_ciclo_corto_criollo"
+    ]
+   },
+   {
+    "aguaTotalMm": 1220.0,
+    "deltaMo": 1.7999999999999998,
+    "deltaN": 140.0,
+    "factores": {
+     "agua_eficiencia": 0.6499999999999999,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.375,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.19999999999999998,
+     "fijacion_n": 0.6000000000000001,
+     "infiltracion": 0.275,
+     "ingreso_neto": 0.098,
+     "materia_organica": 0.6,
+     "proteccion_etapas": 1.17,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.25
+    },
+    "ingresoEstimado": 282240.0,
+    "riesgoPlaga": 0.35,
+    "score": 4.868,
+    "secuencia": [
+     "milpa_ciclo_corto_criollo",
+     "canavalia_cobertura",
+     "milpa_ciclo_corto_criollo",
+     "canavalia_cobertura"
+    ]
+   },
+   {
+    "aguaTotalMm": 1240.0,
+    "deltaMo": 2.0,
+    "deltaN": 160.0,
+    "factores": {
+     "agua_eficiencia": 0.625,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.38749999999999996,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.19999999999999998,
+     "fijacion_n": 0.625,
+     "infiltracion": 0.275,
+     "ingreso_neto": 0.098,
+     "materia_organica": 0.6499999999999999,
+     "proteccion_etapas": 1.1400000000000001,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.21250000000000002
+    },
+    "ingresoEstimado": 282240.0,
+    "riesgoPlaga": 0.35,
+    "score": 4.863,
+    "secuencia": [
+     "milpa_ciclo_corto_criollo",
+     "mucuna_abono_verde",
+     "milpa_ciclo_corto_criollo",
+     "canavalia_cobertura"
+    ]
+   }
+  ],
+  "prioridades": {
+   "agua": 3,
+   "forraje": 3,
+   "ingreso": 3,
+   "suelo": 3
+  }
+ },
+ {
+  "areaHa": 2.0,
+  "escenario": "canicula_prolongada",
+  "planes": [
+   {
+    "aguaTotalMm": 760.0,
+    "deltaMo": 1.6,
+    "deltaN": 60.0,
+    "factores": {
+     "agua_eficiencia": 1.1666666666666667,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.0,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.0,
+     "fijacion_n": 0.0,
+     "infiltracion": 0.0,
+     "ingreso_neto": 0.0,
+     "materia_organica": 0.0,
+     "proteccion_etapas": 2.05,
+     "ruptura_plagas": 0.7,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 31360.0,
+    "riesgoPlaga": 0.30000000000000004,
+    "score": 3.9166666666666665,
+    "secuencia": [
+     "milpa_ciclo_corto_criollo",
+     "acahual_descanso",
+     "milpa_ciclo_corto_criollo",
+     "acahual_descanso"
+    ]
+   },
+   {
+    "aguaTotalMm": 760.0,
+    "deltaMo": 1.6,
+    "deltaN": 60.0,
+    "factores": {
+     "agua_eficiencia": 1.1666666666666667,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.0,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.0,
+     "fijacion_n": 0.0,
+     "infiltracion": 0.0,
+     "ingreso_neto": 0.0,
+     "materia_organica": 0.0,
+     "proteccion_etapas": 2.05,
+     "ruptura_plagas": 0.7,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 31360.0,
+    "riesgoPlaga": 0.30000000000000004,
+    "score": 3.9166666666666665,
+    "secuencia": [
+     "acahual_descanso",
+     "milpa_ciclo_corto_criollo",
+     "acahual_descanso",
+     "milpa_ciclo_corto_criollo"
+    ]
+   },
+   {
+    "aguaTotalMm": 680.0,
+    "deltaMo": 1.4,
+    "deltaN": 40.0,
+    "factores": {
+     "agua_eficiencia": 1.125,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.0,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.0,
+     "fijacion_n": 0.0,
+     "infiltracion": 0.0,
+     "ingreso_neto": 0.0,
+     "materia_organica": 0.0,
+     "proteccion_etapas": 2.0250000000000004,
+     "ruptura_plagas": 0.75,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 32400.0,
+    "riesgoPlaga": 0.25,
+    "score": 3.9000000000000004,
+    "secuencia": [
+     "calabaza_pepita",
+     "acahual_descanso",
+     "milpa_ciclo_corto_criollo",
+     "acahual_descanso"
+    ]
+   }
+  ],
+  "prioridades": {
+   "agua": 5,
+   "forraje": 0,
+   "ingreso": 0,
+   "suelo": 0
+  }
+ },
+ {
+  "areaHa": 18.0,
+  "escenario": "canicula_prolongada",
+  "planes": [
+   {
+    "aguaTotalMm": 760.0,
+    "deltaMo": 1.6,
+    "deltaN": 60.0,
+    "factores": {
+     "agua_eficiencia": 1.1666666666666667,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.0,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.0,
+     "fijacion_n": 0.0,
+     "infiltracion": 0.0,
+     "ingreso_neto": 0.0,
+     "materia_organica": 0.0,
+     "proteccion_etapas": 2.05,
+     "ruptura_plagas": 0.7,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 282240.0,
+    "riesgoPlaga": 0.30000000000000004,
+    "score": 3.9166666666666665,
+    "secuencia": [
+     "milpa_ciclo_corto_criollo",
+     "acahual_descanso",
+     "milpa_ciclo_corto_criollo",
+     "acahual_descanso"
+    ]
+   },
+   {
+    "aguaTotalMm": 760.0,
+    "deltaMo": 1.6,
+    "deltaN": 60.0,
+    "factores": {
+     "agua_eficiencia": 1.1666666666666667,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.0,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.0,
+     "fijacion_n": 0.0,
+     "infiltracion": 0.0,
+     "ingreso_neto": 0.0,
+     "materia_organica": 0.0,
+     "proteccion_etapas": 2.05,
+     "ruptura_plagas": 0.7,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 282240.0,
+    "riesgoPlaga": 0.30000000000000004,
+    "score": 3.9166666666666665,
+    "secuencia": [
+     "acahual_descanso",
+     "milpa_ciclo_corto_criollo",
+     "acahual_descanso",
+     "milpa_ciclo_corto_criollo"
+    ]
+   },
+   {
+    "aguaTotalMm": 380.0,
+    "deltaMo": 1.8,
+    "deltaN": 70.0,
+    "factores": {
+     "agua_eficiencia": 1.1666666666666667,
+     "barbecho_excesivo": -0.375,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.0,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.0,
+     "fijacion_n": 0.0,
+     "infiltracion": 0.0,
+     "ingreso_neto": 0.0,
+     "materia_organica": 0.0,
+     "proteccion_etapas": 2.275,
+     "ruptura_plagas": 0.7999999999999999,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 141120.0,
+    "riesgoPlaga": 0.20000000000000007,
+    "score": 3.8666666666666667,
+    "secuencia": [
+     "acahual_descanso",
+     "acahual_descanso",
+     "milpa_ciclo_corto_criollo",
+     "acahual_descanso"
+    ]
+   }
+  ],
+  "prioridades": {
+   "agua": 5,
+   "forraje": 0,
+   "ingreso": 0,
+   "suelo": 0
+  }
+ },
+ {
+  "areaHa": 2.0,
+  "escenario": "canicula_prolongada",
+  "planes": [
+   {
+    "aguaTotalMm": 1140.0,
+    "deltaMo": 2.2,
+    "deltaN": 220.0,
+    "factores": {
+     "agua_eficiencia": 0.0,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.5833333333333334,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.25000000000000006,
+     "fijacion_n": 1.3333333333333335,
+     "infiltracion": 0.45833333333333337,
+     "ingreso_neto": 0.11066666666666668,
+     "materia_organica": 1.1666666666666667,
+     "proteccion_etapas": 0.0,
+     "ruptura_plagas": 0.75,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 21248.0,
+    "riesgoPlaga": 0.25,
+    "score": 4.652333333333334,
+    "secuencia": [
+     "mucuna_abono_verde",
+     "frijol_xpelon",
+     "mucuna_abono_verde",
+     "frijol_xpelon"
+    ]
+   },
+   {
+    "aguaTotalMm": 1140.0,
+    "deltaMo": 2.2,
+    "deltaN": 220.0,
+    "factores": {
+     "agua_eficiencia": 0.0,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.5833333333333334,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.25,
+     "fijacion_n": 1.3333333333333333,
+     "infiltracion": 0.45833333333333337,
+     "ingreso_neto": 0.11066666666666668,
+     "materia_organica": 1.1666666666666667,
+     "proteccion_etapas": 0.0,
+     "ruptura_plagas": 0.75,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 21248.0,
+    "riesgoPlaga": 0.25,
+    "score": 4.652333333333333,
+    "secuencia": [
+     "frijol_xpelon",
+     "mucuna_abono_verde",
+     "frijol_xpelon",
+     "mucuna_abono_verde"
+    ]
+   },
+   {
+    "aguaTotalMm": 1200.0,
+    "deltaMo": 2.2,
+    "deltaN": 200.0,
+    "factores": {
+     "agua_eficiencia": 0.0,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.625,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.2916666666666667,
+     "fijacion_n": 1.2083333333333333,
+     "infiltracion": 0.45833333333333337,
+     "ingreso_neto": 0.137,
+     "materia_organica": 1.1666666666666667,
+     "proteccion_etapas": 0.0,
+     "ruptura_plagas": 0.7,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 26304.0,
+    "riesgoPlaga": 0.30000000000000004,
+    "score": 4.587,
+    "secuencia": [
+     "mucuna_abono_verde",
+     "frijol_xpelon",
+     "mucuna_abono_verde",
+     "milpa_ciclo_corto_criollo"
+    ]
+   }
+  ],
+  "prioridades": {
+   "agua": 0,
+   "forraje": 0,
+   "ingreso": 5,
+   "suelo": 5
+  }
+ },
+ {
+  "areaHa": 18.0,
+  "escenario": "canicula_prolongada",
+  "planes": [
+   {
+    "aguaTotalMm": 1260.0,
+    "deltaMo": 2.2,
+    "deltaN": 180.0,
+    "factores": {
+     "agua_eficiencia": 0.0,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.6666666666666667,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.33333333333333337,
+     "fijacion_n": 1.0833333333333335,
+     "infiltracion": 0.45833333333333337,
+     "ingreso_neto": 0.16333333333333336,
+     "materia_organica": 1.1666666666666667,
+     "proteccion_etapas": 0.0,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 282240.0,
+    "riesgoPlaga": 0.35,
+    "score": 4.521666666666667,
+    "secuencia": [
+     "mucuna_abono_verde",
+     "milpa_ciclo_corto_criollo",
+     "mucuna_abono_verde",
+     "milpa_ciclo_corto_criollo"
+    ]
+   },
+   {
+    "aguaTotalMm": 1260.0,
+    "deltaMo": 2.2,
+    "deltaN": 180.0,
+    "factores": {
+     "agua_eficiencia": 0.0,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.6666666666666666,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.3333333333333333,
+     "fijacion_n": 1.0833333333333335,
+     "infiltracion": 0.45833333333333337,
+     "ingreso_neto": 0.16333333333333336,
+     "materia_organica": 1.1666666666666667,
+     "proteccion_etapas": 0.0,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 282240.0,
+    "riesgoPlaga": 0.35,
+    "score": 4.5216666666666665,
+    "secuencia": [
+     "milpa_ciclo_corto_criollo",
+     "mucuna_abono_verde",
+     "milpa_ciclo_corto_criollo",
+     "mucuna_abono_verde"
+    ]
+   },
+   {
+    "aguaTotalMm": 1330.0,
+    "deltaMo": 2.2,
+    "deltaN": 180.0,
+    "factores": {
+     "agua_eficiencia": 0.0,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.6666666666666667,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.33333333333333337,
+     "fijacion_n": 1.0833333333333335,
+     "infiltracion": 0.45833333333333337,
+     "ingreso_neto": 0.15866666666666668,
+     "materia_organica": 1.1666666666666667,
+     "proteccion_etapas": 0.0,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 274176.0,
+    "riesgoPlaga": 0.35,
+    "score": 4.517,
+    "secuencia": [
+     "mucuna_abono_verde",
+     "milpa_tradicional",
+     "mucuna_abono_verde",
+     "milpa_ciclo_corto_criollo"
+    ]
+   }
+  ],
+  "prioridades": {
+   "agua": 0,
+   "forraje": 0,
+   "ingreso": 5,
+   "suelo": 5
+  }
+ },
+ {
+  "areaHa": 2.0,
+  "escenario": "canicula_prolongada",
+  "planes": [
+   {
+    "aguaTotalMm": 1220.0,
+    "deltaMo": 1.8,
+    "deltaN": 140.0,
+    "factores": {
+     "agua_eficiencia": 0.21666666666666662,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.25,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.33333333333333337,
+     "fijacion_n": 0.39999999999999997,
+     "infiltracion": 0.18333333333333335,
+     "ingreso_neto": 0.16333333333333336,
+     "materia_organica": 0.39999999999999997,
+     "proteccion_etapas": 0.3899999999999999,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.3333333333333333
+    },
+    "ingresoEstimado": 31360.0,
+    "riesgoPlaga": 0.35,
+    "score": 3.32,
+    "secuencia": [
+     "canavalia_cobertura",
+     "milpa_ciclo_corto_criollo",
+     "canavalia_cobertura",
+     "milpa_ciclo_corto_criollo"
+    ]
+   },
+   {
+    "aguaTotalMm": 1220.0,
+    "deltaMo": 1.7999999999999998,
+    "deltaN": 140.0,
+    "factores": {
+     "agua_eficiencia": 0.21666666666666662,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.25,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.3333333333333333,
+     "fijacion_n": 0.4,
+     "infiltracion": 0.18333333333333335,
+     "ingreso_neto": 0.16333333333333336,
+     "materia_organica": 0.39999999999999997,
+     "proteccion_etapas": 0.38999999999999996,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.3333333333333333
+    },
+    "ingresoEstimado": 31360.0,
+    "riesgoPlaga": 0.35,
+    "score": 3.32,
+    "secuencia": [
+     "milpa_ciclo_corto_criollo",
+     "canavalia_cobertura",
+     "milpa_ciclo_corto_criollo",
+     "canavalia_cobertura"
+    ]
+   },
+   {
+    "aguaTotalMm": 1240.0,
+    "deltaMo": 2.0,
+    "deltaN": 160.0,
+    "factores": {
+     "agua_eficiencia": 0.20833333333333331,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.25833333333333336,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.33333333333333337,
+     "fijacion_n": 0.41666666666666663,
+     "infiltracion": 0.18333333333333335,
+     "ingreso_neto": 0.16333333333333336,
+     "materia_organica": 0.43333333333333324,
+     "proteccion_etapas": 0.38,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.28333333333333327
+    },
+    "ingresoEstimado": 31360.0,
+    "riesgoPlaga": 0.35,
+    "score": 3.31,
+    "secuencia": [
+     "mucuna_abono_verde",
+     "milpa_ciclo_corto_criollo",
+     "canavalia_cobertura",
+     "milpa_ciclo_corto_criollo"
+    ]
+   }
+  ],
+  "prioridades": {
+   "agua": 1,
+   "forraje": 4,
+   "ingreso": 5,
+   "suelo": 2
+  }
+ },
+ {
+  "areaHa": 18.0,
+  "escenario": "canicula_prolongada",
+  "planes": [
+   {
+    "aguaTotalMm": 1220.0,
+    "deltaMo": 1.8,
+    "deltaN": 140.0,
+    "factores": {
+     "agua_eficiencia": 0.21666666666666662,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.25,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.33333333333333337,
+     "fijacion_n": 0.39999999999999997,
+     "infiltracion": 0.18333333333333335,
+     "ingreso_neto": 0.16333333333333336,
+     "materia_organica": 0.39999999999999997,
+     "proteccion_etapas": 0.3899999999999999,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.3333333333333333
+    },
+    "ingresoEstimado": 282240.0,
+    "riesgoPlaga": 0.35,
+    "score": 3.32,
+    "secuencia": [
+     "canavalia_cobertura",
+     "milpa_ciclo_corto_criollo",
+     "canavalia_cobertura",
+     "milpa_ciclo_corto_criollo"
+    ]
+   },
+   {
+    "aguaTotalMm": 1220.0,
+    "deltaMo": 1.7999999999999998,
+    "deltaN": 140.0,
+    "factores": {
+     "agua_eficiencia": 0.21666666666666662,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.25,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.3333333333333333,
+     "fijacion_n": 0.4,
+     "infiltracion": 0.18333333333333335,
+     "ingreso_neto": 0.16333333333333336,
+     "materia_organica": 0.39999999999999997,
+     "proteccion_etapas": 0.38999999999999996,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.3333333333333333
+    },
+    "ingresoEstimado": 282240.0,
+    "riesgoPlaga": 0.35,
+    "score": 3.32,
+    "secuencia": [
+     "milpa_ciclo_corto_criollo",
+     "canavalia_cobertura",
+     "milpa_ciclo_corto_criollo",
+     "canavalia_cobertura"
+    ]
+   },
+   {
+    "aguaTotalMm": 1240.0,
+    "deltaMo": 2.0,
+    "deltaN": 160.0,
+    "factores": {
+     "agua_eficiencia": 0.20833333333333331,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.25833333333333336,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.33333333333333337,
+     "fijacion_n": 0.41666666666666663,
+     "infiltracion": 0.18333333333333335,
+     "ingreso_neto": 0.16333333333333336,
+     "materia_organica": 0.43333333333333324,
+     "proteccion_etapas": 0.38,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.28333333333333327
+    },
+    "ingresoEstimado": 282240.0,
+    "riesgoPlaga": 0.35,
+    "score": 3.31,
+    "secuencia": [
+     "mucuna_abono_verde",
+     "milpa_ciclo_corto_criollo",
+     "canavalia_cobertura",
+     "milpa_ciclo_corto_criollo"
+    ]
+   }
+  ],
+  "prioridades": {
+   "agua": 1,
+   "forraje": 4,
+   "ingreso": 5,
+   "suelo": 2
+  }
+ },
+ {
+  "areaHa": 2.0,
+  "escenario": "huracan",
+  "planes": [
+   {
+    "aguaTotalMm": 1140.0,
+    "deltaMo": 2.2,
+    "deltaN": 220.0,
+    "factores": {
+     "agua_eficiencia": 0.55,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.35,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.15000000000000002,
+     "fijacion_n": 0.8,
+     "infiltracion": 0.275,
+     "ingreso_neto": 0.08950000000000001,
+     "materia_organica": 0.7,
+     "proteccion_etapas": 1.2974999999999999,
+     "ruptura_plagas": 0.75,
+     "valor_forrajero": 0.175
+    },
+    "ingresoEstimado": 28640.0,
+    "riesgoPlaga": 0.25,
+    "score": 5.137,
+    "secuencia": [
+     "mucuna_abono_verde",
+     "frijol_xpelon",
+     "mucuna_abono_verde",
+     "frijol_xpelon"
+    ]
+   },
+   {
+    "aguaTotalMm": 1140.0,
+    "deltaMo": 2.2,
+    "deltaN": 220.0,
+    "factores": {
+     "agua_eficiencia": 0.55,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.35,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.15,
+     "fijacion_n": 0.7999999999999999,
+     "infiltracion": 0.275,
+     "ingreso_neto": 0.08950000000000001,
+     "materia_organica": 0.7,
+     "proteccion_etapas": 1.2974999999999999,
+     "ruptura_plagas": 0.75,
+     "valor_forrajero": 0.17500000000000002
+    },
+    "ingresoEstimado": 28640.0,
+    "riesgoPlaga": 0.25,
+    "score": 5.137,
+    "secuencia": [
+     "frijol_xpelon",
+     "mucuna_abono_verde",
+     "frijol_xpelon",
+     "mucuna_abono_verde"
+    ]
+   },
+   {
+    "aguaTotalMm": 1200.0,
+    "deltaMo": 2.2,
+    "deltaN": 200.0,
+    "factores": {
+     "agua_eficiencia": 0.575,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.375,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.175,
+     "fijacion_n": 0.725,
+     "infiltracion": 0.275,
+     "ingreso_neto": 0.10303125,
+     "materia_organica": 0.7,
+     "proteccion_etapas": 1.325625,
+     "ruptura_plagas": 0.7,
+     "valor_forrajero": 0.175
+    },
+    "ingresoEstimado": 32970.0,
+    "riesgoPlaga": 0.30000000000000004,
+    "score": 5.12865625,
+    "secuencia": [
+     "mucuna_abono_verde",
+     "frijol_xpelon",
+     "mucuna_abono_verde",
+     "milpa_ciclo_corto_criollo"
+    ]
+   }
+  ],
+  "prioridades": {
+   "agua": 3,
+   "forraje": 3,
+   "ingreso": 3,
+   "suelo": 3
+  }
+ },
+ {
+  "areaHa": 18.0,
+  "escenario": "huracan",
+  "planes": [
+   {
+    "aguaTotalMm": 1260.0,
+    "deltaMo": 2.2,
+    "deltaN": 180.0,
+    "factores": {
+     "agua_eficiencia": 0.6,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.4,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.2,
+     "fijacion_n": 0.65,
+     "infiltracion": 0.275,
+     "ingreso_neto": 0.1165625,
+     "materia_organica": 0.7,
+     "proteccion_etapas": 1.3537500000000002,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.175
+    },
+    "ingresoEstimado": 335700.0,
+    "riesgoPlaga": 0.35,
+    "score": 5.1203125,
+    "secuencia": [
+     "mucuna_abono_verde",
+     "milpa_ciclo_corto_criollo",
+     "mucuna_abono_verde",
+     "milpa_ciclo_corto_criollo"
+    ]
+   },
+   {
+    "aguaTotalMm": 1260.0,
+    "deltaMo": 2.2,
+    "deltaN": 180.0,
+    "factores": {
+     "agua_eficiencia": 0.6,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.39999999999999997,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.19999999999999998,
+     "fijacion_n": 0.65,
+     "infiltracion": 0.275,
+     "ingreso_neto": 0.1165625,
+     "materia_organica": 0.7,
+     "proteccion_etapas": 1.35375,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.17500000000000002
+    },
+    "ingresoEstimado": 335700.0,
+    "riesgoPlaga": 0.35,
+    "score": 5.1203125,
+    "secuencia": [
+     "milpa_ciclo_corto_criollo",
+     "mucuna_abono_verde",
+     "milpa_ciclo_corto_criollo",
+     "mucuna_abono_verde"
+    ]
+   },
+   {
+    "aguaTotalMm": 1240.0,
+    "deltaMo": 2.0,
+    "deltaN": 160.0,
+    "factores": {
+     "agua_eficiencia": 0.625,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.38750000000000007,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.2,
+     "fijacion_n": 0.625,
+     "infiltracion": 0.275,
+     "ingreso_neto": 0.1165625,
+     "materia_organica": 0.6499999999999999,
+     "proteccion_etapas": 1.3649999999999998,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.21249999999999997
+    },
+    "ingresoEstimado": 335700.0,
+    "riesgoPlaga": 0.35,
+    "score": 5.1065625,
+    "secuencia": [
+     "mucuna_abono_verde",
+     "milpa_ciclo_corto_criollo",
+     "canavalia_cobertura",
+     "milpa_ciclo_corto_criollo"
+    ]
+   }
+  ],
+  "prioridades": {
+   "agua": 3,
+   "forraje": 3,
+   "ingreso": 3,
+   "suelo": 3
+  }
+ },
+ {
+  "areaHa": 2.0,
+  "escenario": "huracan",
+  "planes": [
+   {
+    "aguaTotalMm": 760.0,
+    "deltaMo": 1.6,
+    "deltaN": 60.0,
+    "factores": {
+     "agua_eficiencia": 1.1666666666666667,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.0,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.0,
+     "fijacion_n": 0.0,
+     "infiltracion": 0.0,
+     "ingreso_neto": 0.0,
+     "materia_organica": 0.0,
+     "proteccion_etapas": 2.3312500000000003,
+     "ruptura_plagas": 0.7,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 37300.0,
+    "riesgoPlaga": 0.30000000000000004,
+    "score": 4.197916666666667,
+    "secuencia": [
+     "acahual_descanso",
+     "milpa_ciclo_corto_criollo",
+     "acahual_descanso",
+     "milpa_ciclo_corto_criollo"
+    ]
+   },
+   {
+    "aguaTotalMm": 760.0,
+    "deltaMo": 1.6,
+    "deltaN": 60.0,
+    "factores": {
+     "agua_eficiencia": 1.1666666666666667,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.0,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.0,
+     "fijacion_n": 0.0,
+     "infiltracion": 0.0,
+     "ingreso_neto": 0.0,
+     "materia_organica": 0.0,
+     "proteccion_etapas": 2.33125,
+     "ruptura_plagas": 0.7,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 37300.0,
+    "riesgoPlaga": 0.30000000000000004,
+    "score": 4.197916666666666,
+    "secuencia": [
+     "milpa_ciclo_corto_criollo",
+     "acahual_descanso",
+     "milpa_ciclo_corto_criollo",
+     "acahual_descanso"
+    ]
+   },
+   {
+    "aguaTotalMm": 680.0,
+    "deltaMo": 1.4000000000000001,
+    "deltaN": 40.0,
+    "factores": {
+     "agua_eficiencia": 1.125,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.0,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.0,
+     "fijacion_n": 0.0,
+     "infiltracion": 0.0,
+     "ingreso_neto": 0.0,
+     "materia_organica": 0.0,
+     "proteccion_etapas": 2.321875,
+     "ruptura_plagas": 0.75,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 39000.0,
+    "riesgoPlaga": 0.25,
+    "score": 4.196875,
+    "secuencia": [
+     "acahual_descanso",
+     "calabaza_pepita",
+     "acahual_descanso",
+     "milpa_ciclo_corto_criollo"
+    ]
+   }
+  ],
+  "prioridades": {
+   "agua": 5,
+   "forraje": 0,
+   "ingreso": 0,
+   "suelo": 0
+  }
+ },
+ {
+  "areaHa": 18.0,
+  "escenario": "huracan",
+  "planes": [
+   {
+    "aguaTotalMm": 760.0,
+    "deltaMo": 1.6,
+    "deltaN": 60.0,
+    "factores": {
+     "agua_eficiencia": 1.1666666666666667,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.0,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.0,
+     "fijacion_n": 0.0,
+     "infiltracion": 0.0,
+     "ingreso_neto": 0.0,
+     "materia_organica": 0.0,
+     "proteccion_etapas": 2.3312500000000003,
+     "ruptura_plagas": 0.7,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 335700.0,
+    "riesgoPlaga": 0.30000000000000004,
+    "score": 4.197916666666667,
+    "secuencia": [
+     "acahual_descanso",
+     "milpa_ciclo_corto_criollo",
+     "acahual_descanso",
+     "milpa_ciclo_corto_criollo"
+    ]
+   },
+   {
+    "aguaTotalMm": 760.0,
+    "deltaMo": 1.6,
+    "deltaN": 60.0,
+    "factores": {
+     "agua_eficiencia": 1.1666666666666667,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.0,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.0,
+     "fijacion_n": 0.0,
+     "infiltracion": 0.0,
+     "ingreso_neto": 0.0,
+     "materia_organica": 0.0,
+     "proteccion_etapas": 2.33125,
+     "ruptura_plagas": 0.7,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 335700.0,
+    "riesgoPlaga": 0.30000000000000004,
+    "score": 4.197916666666666,
+    "secuencia": [
+     "milpa_ciclo_corto_criollo",
+     "acahual_descanso",
+     "milpa_ciclo_corto_criollo",
+     "acahual_descanso"
+    ]
+   },
+   {
+    "aguaTotalMm": 990.0,
+    "deltaMo": 1.7,
+    "deltaN": 100.0,
+    "factores": {
+     "agua_eficiencia": 1.125,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.0,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.0,
+     "fijacion_n": 0.0,
+     "infiltracion": 0.0,
+     "ingreso_neto": 0.0,
+     "materia_organica": 0.0,
+     "proteccion_etapas": 2.3125,
+     "ruptura_plagas": 0.675,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 335700.0,
+    "riesgoPlaga": 0.32499999999999996,
+    "score": 4.1125,
+    "secuencia": [
+     "canavalia_cobertura",
+     "milpa_ciclo_corto_criollo",
+     "acahual_descanso",
+     "milpa_ciclo_corto_criollo"
+    ]
+   }
+  ],
+  "prioridades": {
+   "agua": 5,
+   "forraje": 0,
+   "ingreso": 0,
+   "suelo": 0
+  }
+ },
+ {
+  "areaHa": 2.0,
+  "escenario": "huracan",
+  "planes": [
+   {
+    "aguaTotalMm": 1140.0,
+    "deltaMo": 2.2,
+    "deltaN": 220.0,
+    "factores": {
+     "agua_eficiencia": 0.0,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.5833333333333334,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.25000000000000006,
+     "fijacion_n": 1.3333333333333335,
+     "infiltracion": 0.45833333333333337,
+     "ingreso_neto": 0.1491666666666667,
+     "materia_organica": 1.1666666666666667,
+     "proteccion_etapas": 0.0,
+     "ruptura_plagas": 0.75,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 28640.0,
+    "riesgoPlaga": 0.25,
+    "score": 4.690833333333334,
+    "secuencia": [
+     "mucuna_abono_verde",
+     "frijol_xpelon",
+     "mucuna_abono_verde",
+     "frijol_xpelon"
+    ]
+   },
+   {
+    "aguaTotalMm": 1140.0,
+    "deltaMo": 2.2,
+    "deltaN": 220.0,
+    "factores": {
+     "agua_eficiencia": 0.0,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.5833333333333334,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.25,
+     "fijacion_n": 1.3333333333333333,
+     "infiltracion": 0.45833333333333337,
+     "ingreso_neto": 0.1491666666666667,
+     "materia_organica": 1.1666666666666667,
+     "proteccion_etapas": 0.0,
+     "ruptura_plagas": 0.75,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 28640.0,
+    "riesgoPlaga": 0.25,
+    "score": 4.690833333333334,
+    "secuencia": [
+     "frijol_xpelon",
+     "mucuna_abono_verde",
+     "frijol_xpelon",
+     "mucuna_abono_verde"
+    ]
+   },
+   {
+    "aguaTotalMm": 1270.0,
+    "deltaMo": 2.2,
+    "deltaN": 200.0,
+    "factores": {
+     "agua_eficiencia": 0.0,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.625,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.2916666666666667,
+     "fijacion_n": 1.2083333333333333,
+     "infiltracion": 0.45833333333333337,
+     "ingreso_neto": 0.18458333333333338,
+     "materia_organica": 1.1666666666666667,
+     "proteccion_etapas": 0.0,
+     "ruptura_plagas": 0.7,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 35440.0,
+    "riesgoPlaga": 0.30000000000000004,
+    "score": 4.6345833333333335,
+    "secuencia": [
+     "mucuna_abono_verde",
+     "frijol_xpelon",
+     "mucuna_abono_verde",
+     "milpa_tradicional"
+    ]
+   }
+  ],
+  "prioridades": {
+   "agua": 0,
+   "forraje": 0,
+   "ingreso": 5,
+   "suelo": 5
+  }
+ },
+ {
+  "areaHa": 18.0,
+  "escenario": "huracan",
+  "planes": [
+   {
+    "aguaTotalMm": 1400.0,
+    "deltaMo": 2.2,
+    "deltaN": 180.0,
+    "factores": {
+     "agua_eficiencia": 0.0,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.6666666666666667,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.33333333333333337,
+     "fijacion_n": 1.0833333333333335,
+     "infiltracion": 0.45833333333333337,
+     "ingreso_neto": 0.22000000000000003,
+     "materia_organica": 1.1666666666666667,
+     "proteccion_etapas": 0.0,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 380160.0,
+    "riesgoPlaga": 0.35,
+    "score": 4.578333333333334,
+    "secuencia": [
+     "mucuna_abono_verde",
+     "milpa_tradicional",
+     "mucuna_abono_verde",
+     "milpa_tradicional"
+    ]
+   },
+   {
+    "aguaTotalMm": 1400.0,
+    "deltaMo": 2.2,
+    "deltaN": 180.0,
+    "factores": {
+     "agua_eficiencia": 0.0,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.6666666666666666,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.3333333333333333,
+     "fijacion_n": 1.0833333333333335,
+     "infiltracion": 0.45833333333333337,
+     "ingreso_neto": 0.22000000000000003,
+     "materia_organica": 1.1666666666666667,
+     "proteccion_etapas": 0.0,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 380160.0,
+    "riesgoPlaga": 0.35,
+    "score": 4.578333333333333,
+    "secuencia": [
+     "milpa_tradicional",
+     "mucuna_abono_verde",
+     "milpa_tradicional",
+     "mucuna_abono_verde"
+    ]
+   },
+   {
+    "aguaTotalMm": 1330.0,
+    "deltaMo": 2.2,
+    "deltaN": 180.0,
+    "factores": {
+     "agua_eficiencia": 0.0,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.6666666666666666,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.3333333333333333,
+     "fijacion_n": 1.0833333333333335,
+     "infiltracion": 0.45833333333333337,
+     "ingreso_neto": 0.20713541666666668,
+     "materia_organica": 1.1666666666666667,
+     "proteccion_etapas": 0.0,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 357930.0,
+    "riesgoPlaga": 0.35,
+    "score": 4.56546875,
+    "secuencia": [
+     "milpa_ciclo_corto_criollo",
+     "mucuna_abono_verde",
+     "milpa_tradicional",
+     "mucuna_abono_verde"
+    ]
+   }
+  ],
+  "prioridades": {
+   "agua": 0,
+   "forraje": 0,
+   "ingreso": 5,
+   "suelo": 5
+  }
+ },
+ {
+  "areaHa": 2.0,
+  "escenario": "huracan",
+  "planes": [
+   {
+    "aguaTotalMm": 1360.0,
+    "deltaMo": 1.8,
+    "deltaN": 140.0,
+    "factores": {
+     "agua_eficiencia": 0.19166666666666665,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.25,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.33333333333333337,
+     "fijacion_n": 0.39999999999999997,
+     "infiltracion": 0.18333333333333335,
+     "ingreso_neto": 0.22000000000000003,
+     "materia_organica": 0.39999999999999997,
+     "proteccion_etapas": 0.4325,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.3666666666666667
+    },
+    "ingresoEstimado": 42240.0,
+    "riesgoPlaga": 0.35,
+    "score": 3.4275,
+    "secuencia": [
+     "canavalia_cobertura",
+     "milpa_tradicional",
+     "canavalia_cobertura",
+     "milpa_tradicional"
+    ]
+   },
+   {
+    "aguaTotalMm": 1360.0,
+    "deltaMo": 1.7999999999999998,
+    "deltaN": 140.0,
+    "factores": {
+     "agua_eficiencia": 0.19166666666666665,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.25,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.3333333333333333,
+     "fijacion_n": 0.4,
+     "infiltracion": 0.18333333333333335,
+     "ingreso_neto": 0.22000000000000003,
+     "materia_organica": 0.39999999999999997,
+     "proteccion_etapas": 0.4325,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.3666666666666667
+    },
+    "ingresoEstimado": 42240.0,
+    "riesgoPlaga": 0.35,
+    "score": 3.4275,
+    "secuencia": [
+     "milpa_tradicional",
+     "canavalia_cobertura",
+     "milpa_tradicional",
+     "canavalia_cobertura"
+    ]
+   },
+   {
+    "aguaTotalMm": 1230.0,
+    "deltaMo": 1.8,
+    "deltaN": 160.0,
+    "factores": {
+     "agua_eficiencia": 0.1958333333333333,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.2333333333333333,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.2916666666666667,
+     "fijacion_n": 0.44999999999999996,
+     "infiltracion": 0.18333333333333335,
+     "ingreso_neto": 0.18458333333333338,
+     "materia_organica": 0.39999999999999997,
+     "proteccion_etapas": 0.43625,
+     "ruptura_plagas": 0.7,
+     "valor_forrajero": 0.35
+    },
+    "ingresoEstimado": 35440.0,
+    "riesgoPlaga": 0.30000000000000004,
+    "score": 3.425,
+    "secuencia": [
+     "canavalia_cobertura",
+     "frijol_xpelon",
+     "canavalia_cobertura",
+     "milpa_tradicional"
+    ]
+   }
+  ],
+  "prioridades": {
+   "agua": 1,
+   "forraje": 4,
+   "ingreso": 5,
+   "suelo": 2
+  }
+ },
+ {
+  "areaHa": 18.0,
+  "escenario": "huracan",
+  "planes": [
+   {
+    "aguaTotalMm": 1360.0,
+    "deltaMo": 1.8,
+    "deltaN": 140.0,
+    "factores": {
+     "agua_eficiencia": 0.19166666666666665,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.25,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.33333333333333337,
+     "fijacion_n": 0.39999999999999997,
+     "infiltracion": 0.18333333333333335,
+     "ingreso_neto": 0.22000000000000003,
+     "materia_organica": 0.39999999999999997,
+     "proteccion_etapas": 0.4325,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.3666666666666667
+    },
+    "ingresoEstimado": 380160.0,
+    "riesgoPlaga": 0.35,
+    "score": 3.4275,
+    "secuencia": [
+     "canavalia_cobertura",
+     "milpa_tradicional",
+     "canavalia_cobertura",
+     "milpa_tradicional"
+    ]
+   },
+   {
+    "aguaTotalMm": 1360.0,
+    "deltaMo": 1.7999999999999998,
+    "deltaN": 140.0,
+    "factores": {
+     "agua_eficiencia": 0.19166666666666665,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.25,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.3333333333333333,
+     "fijacion_n": 0.4,
+     "infiltracion": 0.18333333333333335,
+     "ingreso_neto": 0.22000000000000003,
+     "materia_organica": 0.39999999999999997,
+     "proteccion_etapas": 0.4325,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.3666666666666667
+    },
+    "ingresoEstimado": 380160.0,
+    "riesgoPlaga": 0.35,
+    "score": 3.4275,
+    "secuencia": [
+     "milpa_tradicional",
+     "canavalia_cobertura",
+     "milpa_tradicional",
+     "canavalia_cobertura"
+    ]
+   },
+   {
+    "aguaTotalMm": 1380.0,
+    "deltaMo": 2.0,
+    "deltaN": 160.0,
+    "factores": {
+     "agua_eficiencia": 0.18333333333333335,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.25833333333333336,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.33333333333333337,
+     "fijacion_n": 0.41666666666666663,
+     "infiltracion": 0.18333333333333335,
+     "ingreso_neto": 0.22000000000000003,
+     "materia_organica": 0.43333333333333324,
+     "proteccion_etapas": 0.42874999999999996,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.31666666666666665
+    },
+    "ingresoEstimado": 380160.0,
+    "riesgoPlaga": 0.35,
+    "score": 3.42375,
+    "secuencia": [
+     "mucuna_abono_verde",
+     "milpa_tradicional",
+     "canavalia_cobertura",
+     "milpa_tradicional"
+    ]
+   }
+  ],
+  "prioridades": {
+   "agua": 1,
+   "forraje": 4,
+   "ingreso": 5,
+   "suelo": 2
+  }
+ },
+ {
+  "areaHa": 2.0,
+  "escenario": "normal",
+  "planes": [
+   {
+    "aguaTotalMm": 1140.0,
+    "deltaMo": 2.2,
+    "deltaN": 220.0,
+    "factores": {
+     "agua_eficiencia": 0.55,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.35,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.15000000000000002,
+     "fijacion_n": 0.8,
+     "infiltracion": 0.275,
+     "ingreso_neto": 0.1,
+     "materia_organica": 0.7,
+     "proteccion_etapas": 1.5,
+     "ruptura_plagas": 0.75,
+     "valor_forrajero": 0.175
+    },
+    "ingresoEstimado": 32000.0,
+    "riesgoPlaga": 0.25,
+    "score": 5.35,
+    "secuencia": [
+     "mucuna_abono_verde",
+     "frijol_xpelon",
+     "mucuna_abono_verde",
+     "frijol_xpelon"
+    ]
+   },
+   {
+    "aguaTotalMm": 1140.0,
+    "deltaMo": 2.2,
+    "deltaN": 220.0,
+    "factores": {
+     "agua_eficiencia": 0.55,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.35,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.15,
+     "fijacion_n": 0.7999999999999999,
+     "infiltracion": 0.275,
+     "ingreso_neto": 0.1,
+     "materia_organica": 0.7,
+     "proteccion_etapas": 1.5,
+     "ruptura_plagas": 0.75,
+     "valor_forrajero": 0.17500000000000002
+    },
+    "ingresoEstimado": 32000.0,
+    "riesgoPlaga": 0.25,
+    "score": 5.35,
+    "secuencia": [
+     "frijol_xpelon",
+     "mucuna_abono_verde",
+     "frijol_xpelon",
+     "mucuna_abono_verde"
+    ]
+   },
+   {
+    "aguaTotalMm": 1120.0,
+    "deltaMo": 2.0,
+    "deltaN": 200.0,
+    "factores": {
+     "agua_eficiencia": 0.5750000000000001,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.3375,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.15000000000000002,
+     "fijacion_n": 0.7750000000000001,
+     "infiltracion": 0.275,
+     "ingreso_neto": 0.1,
+     "materia_organica": 0.6499999999999999,
+     "proteccion_etapas": 1.5,
+     "ruptura_plagas": 0.75,
+     "valor_forrajero": 0.21249999999999997
+    },
+    "ingresoEstimado": 32000.0,
+    "riesgoPlaga": 0.25,
+    "score": 5.325,
+    "secuencia": [
+     "mucuna_abono_verde",
+     "frijol_xpelon",
+     "canavalia_cobertura",
+     "frijol_xpelon"
+    ]
+   }
+  ],
+  "prioridades": {
+   "agua": 3,
+   "forraje": 3,
+   "ingreso": 3,
+   "suelo": 3
+  }
+ },
+ {
+  "areaHa": 18.0,
+  "escenario": "normal",
+  "planes": [
+   {
+    "aguaTotalMm": 1260.0,
+    "deltaMo": 2.2,
+    "deltaN": 180.0,
+    "factores": {
+     "agua_eficiencia": 0.6,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.39999999999999997,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.19999999999999998,
+     "fijacion_n": 0.65,
+     "infiltracion": 0.275,
+     "ingreso_neto": 0.125,
+     "materia_organica": 0.7,
+     "proteccion_etapas": 1.5,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.17500000000000002
+    },
+    "ingresoEstimado": 360000.0,
+    "riesgoPlaga": 0.35,
+    "score": 5.275,
+    "secuencia": [
+     "milpa_ciclo_corto_criollo",
+     "mucuna_abono_verde",
+     "milpa_ciclo_corto_criollo",
+     "mucuna_abono_verde"
+    ]
+   },
+   {
+    "aguaTotalMm": 1260.0,
+    "deltaMo": 2.2,
+    "deltaN": 180.0,
+    "factores": {
+     "agua_eficiencia": 0.6,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.4,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.2,
+     "fijacion_n": 0.65,
+     "infiltracion": 0.275,
+     "ingreso_neto": 0.125,
+     "materia_organica": 0.7,
+     "proteccion_etapas": 1.5,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.175
+    },
+    "ingresoEstimado": 360000.0,
+    "riesgoPlaga": 0.35,
+    "score": 5.275,
+    "secuencia": [
+     "mucuna_abono_verde",
+     "milpa_ciclo_corto_criollo",
+     "mucuna_abono_verde",
+     "milpa_ciclo_corto_criollo"
+    ]
+   },
+   {
+    "aguaTotalMm": 1330.0,
+    "deltaMo": 2.2,
+    "deltaN": 180.0,
+    "factores": {
+     "agua_eficiencia": 0.5625,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.4,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.2,
+     "fijacion_n": 0.65,
+     "infiltracion": 0.275,
+     "ingreso_neto": 0.1375,
+     "materia_organica": 0.7,
+     "proteccion_etapas": 1.5,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.1875
+    },
+    "ingresoEstimado": 396000.0,
+    "riesgoPlaga": 0.35,
+    "score": 5.2625,
+    "secuencia": [
+     "mucuna_abono_verde",
+     "milpa_tradicional",
+     "mucuna_abono_verde",
+     "milpa_ciclo_corto_criollo"
+    ]
+   }
+  ],
+  "prioridades": {
+   "agua": 3,
+   "forraje": 3,
+   "ingreso": 3,
+   "suelo": 3
+  }
+ },
+ {
+  "areaHa": 2.0,
+  "escenario": "normal",
+  "planes": [
+   {
+    "aguaTotalMm": 600.0,
+    "deltaMo": 1.2000000000000002,
+    "deltaN": 20.0,
+    "factores": {
+     "agua_eficiencia": 1.0833333333333333,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.0,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.0,
+     "fijacion_n": 0.0,
+     "infiltracion": 0.0,
+     "ingreso_neto": 0.0,
+     "materia_organica": 0.0,
+     "proteccion_etapas": 2.5,
+     "ruptura_plagas": 0.8,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 44000.0,
+    "riesgoPlaga": 0.19999999999999996,
+    "score": 4.383333333333333,
+    "secuencia": [
+     "acahual_descanso",
+     "calabaza_pepita",
+     "acahual_descanso",
+     "calabaza_pepita"
+    ]
+   },
+   {
+    "aguaTotalMm": 620.0,
+    "deltaMo": 1.4000000000000001,
+    "deltaN": 60.0,
+    "factores": {
+     "agua_eficiencia": 1.0833333333333333,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.0,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.0,
+     "fijacion_n": 0.0,
+     "infiltracion": 0.0,
+     "ingreso_neto": 0.0,
+     "materia_organica": 0.0,
+     "proteccion_etapas": 2.5,
+     "ruptura_plagas": 0.8,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 38000.0,
+    "riesgoPlaga": 0.19999999999999996,
+    "score": 4.383333333333333,
+    "secuencia": [
+     "acahual_descanso",
+     "calabaza_pepita",
+     "acahual_descanso",
+     "frijol_xpelon"
+    ]
+   },
+   {
+    "aguaTotalMm": 620.0,
+    "deltaMo": 1.4,
+    "deltaN": 60.0,
+    "factores": {
+     "agua_eficiencia": 1.0833333333333333,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.0,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.0,
+     "fijacion_n": 0.0,
+     "infiltracion": 0.0,
+     "ingreso_neto": 0.0,
+     "materia_organica": 0.0,
+     "proteccion_etapas": 2.5,
+     "ruptura_plagas": 0.7999999999999999,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 38000.0,
+    "riesgoPlaga": 0.20000000000000007,
+    "score": 4.383333333333333,
+    "secuencia": [
+     "acahual_descanso",
+     "calabaza_pepita",
+     "frijol_xpelon",
+     "acahual_descanso"
+    ]
+   }
+  ],
+  "prioridades": {
+   "agua": 5,
+   "forraje": 0,
+   "ingreso": 0,
+   "suelo": 0
+  }
+ },
+ {
+  "areaHa": 18.0,
+  "escenario": "normal",
+  "planes": [
+   {
+    "aguaTotalMm": 760.0,
+    "deltaMo": 1.6,
+    "deltaN": 60.0,
+    "factores": {
+     "agua_eficiencia": 1.1666666666666667,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.0,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.0,
+     "fijacion_n": 0.0,
+     "infiltracion": 0.0,
+     "ingreso_neto": 0.0,
+     "materia_organica": 0.0,
+     "proteccion_etapas": 2.5,
+     "ruptura_plagas": 0.7,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 360000.0,
+    "riesgoPlaga": 0.30000000000000004,
+    "score": 4.366666666666667,
+    "secuencia": [
+     "acahual_descanso",
+     "milpa_ciclo_corto_criollo",
+     "acahual_descanso",
+     "milpa_ciclo_corto_criollo"
+    ]
+   },
+   {
+    "aguaTotalMm": 760.0,
+    "deltaMo": 1.6,
+    "deltaN": 60.0,
+    "factores": {
+     "agua_eficiencia": 1.1666666666666667,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.0,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.0,
+     "fijacion_n": 0.0,
+     "infiltracion": 0.0,
+     "ingreso_neto": 0.0,
+     "materia_organica": 0.0,
+     "proteccion_etapas": 2.5,
+     "ruptura_plagas": 0.7,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 360000.0,
+    "riesgoPlaga": 0.30000000000000004,
+    "score": 4.366666666666667,
+    "secuencia": [
+     "milpa_ciclo_corto_criollo",
+     "acahual_descanso",
+     "milpa_ciclo_corto_criollo",
+     "acahual_descanso"
+    ]
+   },
+   {
+    "aguaTotalMm": 830.0,
+    "deltaMo": 1.6,
+    "deltaN": 60.0,
+    "factores": {
+     "agua_eficiencia": 1.1041666666666667,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.0,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.0,
+     "fijacion_n": 0.0,
+     "infiltracion": 0.0,
+     "ingreso_neto": 0.0,
+     "materia_organica": 0.0,
+     "proteccion_etapas": 2.5,
+     "ruptura_plagas": 0.7,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 396000.0,
+    "riesgoPlaga": 0.30000000000000004,
+    "score": 4.304166666666667,
+    "secuencia": [
+     "acahual_descanso",
+     "milpa_tradicional",
+     "acahual_descanso",
+     "milpa_ciclo_corto_criollo"
+    ]
+   }
+  ],
+  "prioridades": {
+   "agua": 5,
+   "forraje": 0,
+   "ingreso": 0,
+   "suelo": 0
+  }
+ },
+ {
+  "areaHa": 2.0,
+  "escenario": "normal",
+  "planes": [
+   {
+    "aguaTotalMm": 1140.0,
+    "deltaMo": 2.2,
+    "deltaN": 220.0,
+    "factores": {
+     "agua_eficiencia": 0.0,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.5833333333333334,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.25000000000000006,
+     "fijacion_n": 1.3333333333333335,
+     "infiltracion": 0.45833333333333337,
+     "ingreso_neto": 0.16666666666666669,
+     "materia_organica": 1.1666666666666667,
+     "proteccion_etapas": 0.0,
+     "ruptura_plagas": 0.75,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 32000.0,
+    "riesgoPlaga": 0.25,
+    "score": 4.708333333333334,
+    "secuencia": [
+     "mucuna_abono_verde",
+     "frijol_xpelon",
+     "mucuna_abono_verde",
+     "frijol_xpelon"
+    ]
+   },
+   {
+    "aguaTotalMm": 1140.0,
+    "deltaMo": 2.2,
+    "deltaN": 220.0,
+    "factores": {
+     "agua_eficiencia": 0.0,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.5833333333333334,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.25,
+     "fijacion_n": 1.3333333333333333,
+     "infiltracion": 0.45833333333333337,
+     "ingreso_neto": 0.16666666666666669,
+     "materia_organica": 1.1666666666666667,
+     "proteccion_etapas": 0.0,
+     "ruptura_plagas": 0.75,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 32000.0,
+    "riesgoPlaga": 0.25,
+    "score": 4.708333333333333,
+    "secuencia": [
+     "frijol_xpelon",
+     "mucuna_abono_verde",
+     "frijol_xpelon",
+     "mucuna_abono_verde"
+    ]
+   },
+   {
+    "aguaTotalMm": 1270.0,
+    "deltaMo": 2.2,
+    "deltaN": 200.0,
+    "factores": {
+     "agua_eficiencia": 0.0,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.625,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.2916666666666667,
+     "fijacion_n": 1.2083333333333333,
+     "infiltracion": 0.45833333333333337,
+     "ingreso_neto": 0.20833333333333334,
+     "materia_organica": 1.1666666666666667,
+     "proteccion_etapas": 0.0,
+     "ruptura_plagas": 0.7,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 40000.0,
+    "riesgoPlaga": 0.30000000000000004,
+    "score": 4.658333333333333,
+    "secuencia": [
+     "mucuna_abono_verde",
+     "frijol_xpelon",
+     "mucuna_abono_verde",
+     "milpa_tradicional"
+    ]
+   }
+  ],
+  "prioridades": {
+   "agua": 0,
+   "forraje": 0,
+   "ingreso": 5,
+   "suelo": 5
+  }
+ },
+ {
+  "areaHa": 18.0,
+  "escenario": "normal",
+  "planes": [
+   {
+    "aguaTotalMm": 1400.0,
+    "deltaMo": 2.2,
+    "deltaN": 180.0,
+    "factores": {
+     "agua_eficiencia": 0.0,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.6666666666666667,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.33333333333333337,
+     "fijacion_n": 1.0833333333333335,
+     "infiltracion": 0.45833333333333337,
+     "ingreso_neto": 0.25,
+     "materia_organica": 1.1666666666666667,
+     "proteccion_etapas": 0.0,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 432000.0,
+    "riesgoPlaga": 0.35,
+    "score": 4.608333333333333,
+    "secuencia": [
+     "mucuna_abono_verde",
+     "milpa_tradicional",
+     "mucuna_abono_verde",
+     "milpa_tradicional"
+    ]
+   },
+   {
+    "aguaTotalMm": 1400.0,
+    "deltaMo": 2.2,
+    "deltaN": 180.0,
+    "factores": {
+     "agua_eficiencia": 0.0,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.6666666666666666,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.3333333333333333,
+     "fijacion_n": 1.0833333333333335,
+     "infiltracion": 0.45833333333333337,
+     "ingreso_neto": 0.25,
+     "materia_organica": 1.1666666666666667,
+     "proteccion_etapas": 0.0,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 432000.0,
+    "riesgoPlaga": 0.35,
+    "score": 4.608333333333333,
+    "secuencia": [
+     "milpa_tradicional",
+     "mucuna_abono_verde",
+     "milpa_tradicional",
+     "mucuna_abono_verde"
+    ]
+   },
+   {
+    "aguaTotalMm": 1330.0,
+    "deltaMo": 2.2,
+    "deltaN": 180.0,
+    "factores": {
+     "agua_eficiencia": 0.0,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.6666666666666667,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.33333333333333337,
+     "fijacion_n": 1.0833333333333335,
+     "infiltracion": 0.45833333333333337,
+     "ingreso_neto": 0.22916666666666669,
+     "materia_organica": 1.1666666666666667,
+     "proteccion_etapas": 0.0,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 396000.0,
+    "riesgoPlaga": 0.35,
+    "score": 4.5875,
+    "secuencia": [
+     "mucuna_abono_verde",
+     "milpa_tradicional",
+     "mucuna_abono_verde",
+     "milpa_ciclo_corto_criollo"
+    ]
+   }
+  ],
+  "prioridades": {
+   "agua": 0,
+   "forraje": 0,
+   "ingreso": 5,
+   "suelo": 5
+  }
+ },
+ {
+  "areaHa": 2.0,
+  "escenario": "normal",
+  "planes": [
+   {
+    "aguaTotalMm": 1400.0,
+    "deltaMo": 2.2,
+    "deltaN": 180.0,
+    "factores": {
+     "agua_eficiencia": 0.175,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.2666666666666666,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.3333333333333333,
+     "fijacion_n": 0.43333333333333335,
+     "infiltracion": 0.18333333333333335,
+     "ingreso_neto": 0.25,
+     "materia_organica": 0.4666666666666666,
+     "proteccion_etapas": 0.5,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.26666666666666666
+    },
+    "ingresoEstimado": 48000.0,
+    "riesgoPlaga": 0.35,
+    "score": 3.525,
+    "secuencia": [
+     "milpa_tradicional",
+     "mucuna_abono_verde",
+     "milpa_tradicional",
+     "mucuna_abono_verde"
+    ]
+   },
+   {
+    "aguaTotalMm": 1380.0,
+    "deltaMo": 2.0,
+    "deltaN": 160.0,
+    "factores": {
+     "agua_eficiencia": 0.18333333333333335,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.2583333333333333,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.3333333333333333,
+     "fijacion_n": 0.41666666666666663,
+     "infiltracion": 0.18333333333333335,
+     "ingreso_neto": 0.25,
+     "materia_organica": 0.43333333333333324,
+     "proteccion_etapas": 0.5,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.31666666666666665
+    },
+    "ingresoEstimado": 48000.0,
+    "riesgoPlaga": 0.35,
+    "score": 3.525,
+    "secuencia": [
+     "milpa_tradicional",
+     "mucuna_abono_verde",
+     "milpa_tradicional",
+     "canavalia_cobertura"
+    ]
+   },
+   {
+    "aguaTotalMm": 1380.0,
+    "deltaMo": 2.0,
+    "deltaN": 160.0,
+    "factores": {
+     "agua_eficiencia": 0.18333333333333335,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.2583333333333333,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.3333333333333333,
+     "fijacion_n": 0.41666666666666663,
+     "infiltracion": 0.18333333333333335,
+     "ingreso_neto": 0.25,
+     "materia_organica": 0.43333333333333335,
+     "proteccion_etapas": 0.5,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.31666666666666665
+    },
+    "ingresoEstimado": 48000.0,
+    "riesgoPlaga": 0.35,
+    "score": 3.525,
+    "secuencia": [
+     "milpa_tradicional",
+     "canavalia_cobertura",
+     "milpa_tradicional",
+     "mucuna_abono_verde"
+    ]
+   }
+  ],
+  "prioridades": {
+   "agua": 1,
+   "forraje": 4,
+   "ingreso": 5,
+   "suelo": 2
+  }
+ },
+ {
+  "areaHa": 18.0,
+  "escenario": "normal",
+  "planes": [
+   {
+    "aguaTotalMm": 1400.0,
+    "deltaMo": 2.2,
+    "deltaN": 180.0,
+    "factores": {
+     "agua_eficiencia": 0.175,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.2666666666666666,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.3333333333333333,
+     "fijacion_n": 0.43333333333333335,
+     "infiltracion": 0.18333333333333335,
+     "ingreso_neto": 0.25,
+     "materia_organica": 0.4666666666666666,
+     "proteccion_etapas": 0.5,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.26666666666666666
+    },
+    "ingresoEstimado": 432000.0,
+    "riesgoPlaga": 0.35,
+    "score": 3.525,
+    "secuencia": [
+     "milpa_tradicional",
+     "mucuna_abono_verde",
+     "milpa_tradicional",
+     "mucuna_abono_verde"
+    ]
+   },
+   {
+    "aguaTotalMm": 1380.0,
+    "deltaMo": 2.0,
+    "deltaN": 160.0,
+    "factores": {
+     "agua_eficiencia": 0.18333333333333335,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.2583333333333333,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.3333333333333333,
+     "fijacion_n": 0.41666666666666663,
+     "infiltracion": 0.18333333333333335,
+     "ingreso_neto": 0.25,
+     "materia_organica": 0.43333333333333324,
+     "proteccion_etapas": 0.5,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.31666666666666665
+    },
+    "ingresoEstimado": 432000.0,
+    "riesgoPlaga": 0.35,
+    "score": 3.525,
+    "secuencia": [
+     "milpa_tradicional",
+     "mucuna_abono_verde",
+     "milpa_tradicional",
+     "canavalia_cobertura"
+    ]
+   },
+   {
+    "aguaTotalMm": 1380.0,
+    "deltaMo": 2.0,
+    "deltaN": 160.0,
+    "factores": {
+     "agua_eficiencia": 0.18333333333333335,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.2583333333333333,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.3333333333333333,
+     "fijacion_n": 0.41666666666666663,
+     "infiltracion": 0.18333333333333335,
+     "ingreso_neto": 0.25,
+     "materia_organica": 0.43333333333333335,
+     "proteccion_etapas": 0.5,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.31666666666666665
+    },
+    "ingresoEstimado": 432000.0,
+    "riesgoPlaga": 0.35,
+    "score": 3.525,
+    "secuencia": [
+     "milpa_tradicional",
+     "canavalia_cobertura",
+     "milpa_tradicional",
+     "mucuna_abono_verde"
+    ]
+   }
+  ],
+  "prioridades": {
+   "agua": 1,
+   "forraje": 4,
+   "ingreso": 5,
+   "suelo": 2
+  }
+ },
+ {
+  "areaHa": 2.0,
+  "escenario": "temporal_tardio",
+  "planes": [
+   {
+    "aguaTotalMm": 1260.0,
+    "deltaMo": 2.2,
+    "deltaN": 180.0,
+    "factores": {
+     "agua_eficiencia": 0.6,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.4,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.2,
+     "fijacion_n": 0.65,
+     "infiltracion": 0.275,
+     "ingreso_neto": 0.11599999999999999,
+     "materia_organica": 0.7,
+     "proteccion_etapas": 1.3049999999999997,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.175
+    },
+    "ingresoEstimado": 37120.0,
+    "riesgoPlaga": 0.35,
+    "score": 5.071,
+    "secuencia": [
+     "mucuna_abono_verde",
+     "milpa_ciclo_corto_criollo",
+     "mucuna_abono_verde",
+     "milpa_ciclo_corto_criollo"
+    ]
+   },
+   {
+    "aguaTotalMm": 1260.0,
+    "deltaMo": 2.2,
+    "deltaN": 180.0,
+    "factores": {
+     "agua_eficiencia": 0.6,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.39999999999999997,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.19999999999999998,
+     "fijacion_n": 0.65,
+     "infiltracion": 0.275,
+     "ingreso_neto": 0.11599999999999999,
+     "materia_organica": 0.7,
+     "proteccion_etapas": 1.3049999999999997,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.17500000000000002
+    },
+    "ingresoEstimado": 37120.0,
+    "riesgoPlaga": 0.35,
+    "score": 5.071,
+    "secuencia": [
+     "milpa_ciclo_corto_criollo",
+     "mucuna_abono_verde",
+     "milpa_ciclo_corto_criollo",
+     "mucuna_abono_verde"
+    ]
+   },
+   {
+    "aguaTotalMm": 1200.0,
+    "deltaMo": 2.2,
+    "deltaN": 200.0,
+    "factores": {
+     "agua_eficiencia": 0.575,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.375,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.175,
+     "fijacion_n": 0.725,
+     "infiltracion": 0.275,
+     "ingreso_neto": 0.10239999999999999,
+     "materia_organica": 0.7,
+     "proteccion_etapas": 1.2674999999999998,
+     "ruptura_plagas": 0.7,
+     "valor_forrajero": 0.175
+    },
+    "ingresoEstimado": 32768.0,
+    "riesgoPlaga": 0.30000000000000004,
+    "score": 5.0699,
+    "secuencia": [
+     "mucuna_abono_verde",
+     "frijol_xpelon",
+     "mucuna_abono_verde",
+     "milpa_ciclo_corto_criollo"
+    ]
+   }
+  ],
+  "prioridades": {
+   "agua": 3,
+   "forraje": 3,
+   "ingreso": 3,
+   "suelo": 3
+  }
+ },
+ {
+  "areaHa": 18.0,
+  "escenario": "temporal_tardio",
+  "planes": [
+   {
+    "aguaTotalMm": 1260.0,
+    "deltaMo": 2.2,
+    "deltaN": 180.0,
+    "factores": {
+     "agua_eficiencia": 0.6,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.4,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.2,
+     "fijacion_n": 0.65,
+     "infiltracion": 0.275,
+     "ingreso_neto": 0.11599999999999999,
+     "materia_organica": 0.7,
+     "proteccion_etapas": 1.3049999999999997,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.175
+    },
+    "ingresoEstimado": 334080.0,
+    "riesgoPlaga": 0.35,
+    "score": 5.071,
+    "secuencia": [
+     "mucuna_abono_verde",
+     "milpa_ciclo_corto_criollo",
+     "mucuna_abono_verde",
+     "milpa_ciclo_corto_criollo"
+    ]
+   },
+   {
+    "aguaTotalMm": 1260.0,
+    "deltaMo": 2.2,
+    "deltaN": 180.0,
+    "factores": {
+     "agua_eficiencia": 0.6,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.39999999999999997,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.19999999999999998,
+     "fijacion_n": 0.65,
+     "infiltracion": 0.275,
+     "ingreso_neto": 0.11599999999999999,
+     "materia_organica": 0.7,
+     "proteccion_etapas": 1.3049999999999997,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.17500000000000002
+    },
+    "ingresoEstimado": 334080.0,
+    "riesgoPlaga": 0.35,
+    "score": 5.071,
+    "secuencia": [
+     "milpa_ciclo_corto_criollo",
+     "mucuna_abono_verde",
+     "milpa_ciclo_corto_criollo",
+     "mucuna_abono_verde"
+    ]
+   },
+   {
+    "aguaTotalMm": 1240.0,
+    "deltaMo": 2.0,
+    "deltaN": 160.0,
+    "factores": {
+     "agua_eficiencia": 0.625,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.38750000000000007,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.2,
+     "fijacion_n": 0.625,
+     "infiltracion": 0.275,
+     "ingreso_neto": 0.11599999999999999,
+     "materia_organica": 0.6499999999999999,
+     "proteccion_etapas": 1.3199999999999998,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.21249999999999997
+    },
+    "ingresoEstimado": 334080.0,
+    "riesgoPlaga": 0.35,
+    "score": 5.061,
+    "secuencia": [
+     "mucuna_abono_verde",
+     "milpa_ciclo_corto_criollo",
+     "canavalia_cobertura",
+     "milpa_ciclo_corto_criollo"
+    ]
+   }
+  ],
+  "prioridades": {
+   "agua": 3,
+   "forraje": 3,
+   "ingreso": 3,
+   "suelo": 3
+  }
+ },
+ {
+  "areaHa": 2.0,
+  "escenario": "temporal_tardio",
+  "planes": [
+   {
+    "aguaTotalMm": 760.0,
+    "deltaMo": 1.6,
+    "deltaN": 60.0,
+    "factores": {
+     "agua_eficiencia": 1.1666666666666667,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.0,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.0,
+     "fijacion_n": 0.0,
+     "infiltracion": 0.0,
+     "ingreso_neto": 0.0,
+     "materia_organica": 0.0,
+     "proteccion_etapas": 2.275,
+     "ruptura_plagas": 0.7,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 37120.0,
+    "riesgoPlaga": 0.30000000000000004,
+    "score": 4.141666666666667,
+    "secuencia": [
+     "acahual_descanso",
+     "milpa_ciclo_corto_criollo",
+     "acahual_descanso",
+     "milpa_ciclo_corto_criollo"
+    ]
+   },
+   {
+    "aguaTotalMm": 760.0,
+    "deltaMo": 1.6,
+    "deltaN": 60.0,
+    "factores": {
+     "agua_eficiencia": 1.1666666666666667,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.0,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.0,
+     "fijacion_n": 0.0,
+     "infiltracion": 0.0,
+     "ingreso_neto": 0.0,
+     "materia_organica": 0.0,
+     "proteccion_etapas": 2.275,
+     "ruptura_plagas": 0.7,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 37120.0,
+    "riesgoPlaga": 0.30000000000000004,
+    "score": 4.141666666666667,
+    "secuencia": [
+     "milpa_ciclo_corto_criollo",
+     "acahual_descanso",
+     "milpa_ciclo_corto_criollo",
+     "acahual_descanso"
+    ]
+   },
+   {
+    "aguaTotalMm": 680.0,
+    "deltaMo": 1.4000000000000001,
+    "deltaN": 40.0,
+    "factores": {
+     "agua_eficiencia": 1.125,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.0,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.0,
+     "fijacion_n": 0.0,
+     "infiltracion": 0.0,
+     "ingreso_neto": 0.0,
+     "materia_organica": 0.0,
+     "proteccion_etapas": 2.2625,
+     "ruptura_plagas": 0.75,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 38800.0,
+    "riesgoPlaga": 0.25,
+    "score": 4.1375,
+    "secuencia": [
+     "acahual_descanso",
+     "milpa_ciclo_corto_criollo",
+     "acahual_descanso",
+     "calabaza_pepita"
+    ]
+   }
+  ],
+  "prioridades": {
+   "agua": 5,
+   "forraje": 0,
+   "ingreso": 0,
+   "suelo": 0
+  }
+ },
+ {
+  "areaHa": 18.0,
+  "escenario": "temporal_tardio",
+  "planes": [
+   {
+    "aguaTotalMm": 760.0,
+    "deltaMo": 1.6,
+    "deltaN": 60.0,
+    "factores": {
+     "agua_eficiencia": 1.1666666666666667,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.0,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.0,
+     "fijacion_n": 0.0,
+     "infiltracion": 0.0,
+     "ingreso_neto": 0.0,
+     "materia_organica": 0.0,
+     "proteccion_etapas": 2.275,
+     "ruptura_plagas": 0.7,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 334080.0,
+    "riesgoPlaga": 0.30000000000000004,
+    "score": 4.141666666666667,
+    "secuencia": [
+     "acahual_descanso",
+     "milpa_ciclo_corto_criollo",
+     "acahual_descanso",
+     "milpa_ciclo_corto_criollo"
+    ]
+   },
+   {
+    "aguaTotalMm": 760.0,
+    "deltaMo": 1.6,
+    "deltaN": 60.0,
+    "factores": {
+     "agua_eficiencia": 1.1666666666666667,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.0,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.0,
+     "fijacion_n": 0.0,
+     "infiltracion": 0.0,
+     "ingreso_neto": 0.0,
+     "materia_organica": 0.0,
+     "proteccion_etapas": 2.275,
+     "ruptura_plagas": 0.7,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 334080.0,
+    "riesgoPlaga": 0.30000000000000004,
+    "score": 4.141666666666667,
+    "secuencia": [
+     "milpa_ciclo_corto_criollo",
+     "acahual_descanso",
+     "milpa_ciclo_corto_criollo",
+     "acahual_descanso"
+    ]
+   },
+   {
+    "aguaTotalMm": 990.0,
+    "deltaMo": 1.7,
+    "deltaN": 100.0,
+    "factores": {
+     "agua_eficiencia": 1.125,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.0,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.0,
+     "fijacion_n": 0.0,
+     "infiltracion": 0.0,
+     "ingreso_neto": 0.0,
+     "materia_organica": 0.0,
+     "proteccion_etapas": 2.25,
+     "ruptura_plagas": 0.675,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 334080.0,
+    "riesgoPlaga": 0.32499999999999996,
+    "score": 4.05,
+    "secuencia": [
+     "canavalia_cobertura",
+     "milpa_ciclo_corto_criollo",
+     "acahual_descanso",
+     "milpa_ciclo_corto_criollo"
+    ]
+   }
+  ],
+  "prioridades": {
+   "agua": 5,
+   "forraje": 0,
+   "ingreso": 0,
+   "suelo": 0
+  }
+ },
+ {
+  "areaHa": 2.0,
+  "escenario": "temporal_tardio",
+  "planes": [
+   {
+    "aguaTotalMm": 1140.0,
+    "deltaMo": 2.2,
+    "deltaN": 220.0,
+    "factores": {
+     "agua_eficiencia": 0.0,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.5833333333333334,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.25000000000000006,
+     "fijacion_n": 1.3333333333333335,
+     "infiltracion": 0.45833333333333337,
+     "ingreso_neto": 0.14800000000000002,
+     "materia_organica": 1.1666666666666667,
+     "proteccion_etapas": 0.0,
+     "ruptura_plagas": 0.75,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 28416.0,
+    "riesgoPlaga": 0.25,
+    "score": 4.689666666666667,
+    "secuencia": [
+     "mucuna_abono_verde",
+     "frijol_xpelon",
+     "mucuna_abono_verde",
+     "frijol_xpelon"
+    ]
+   },
+   {
+    "aguaTotalMm": 1140.0,
+    "deltaMo": 2.2,
+    "deltaN": 220.0,
+    "factores": {
+     "agua_eficiencia": 0.0,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.5833333333333334,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.25,
+     "fijacion_n": 1.3333333333333333,
+     "infiltracion": 0.45833333333333337,
+     "ingreso_neto": 0.14800000000000002,
+     "materia_organica": 1.1666666666666667,
+     "proteccion_etapas": 0.0,
+     "ruptura_plagas": 0.75,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 28416.0,
+    "riesgoPlaga": 0.25,
+    "score": 4.689666666666667,
+    "secuencia": [
+     "frijol_xpelon",
+     "mucuna_abono_verde",
+     "frijol_xpelon",
+     "mucuna_abono_verde"
+    ]
+   },
+   {
+    "aguaTotalMm": 1270.0,
+    "deltaMo": 2.2,
+    "deltaN": 200.0,
+    "factores": {
+     "agua_eficiencia": 0.0,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.625,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.2916666666666667,
+     "fijacion_n": 1.2083333333333333,
+     "infiltracion": 0.45833333333333337,
+     "ingreso_neto": 0.18300000000000002,
+     "materia_organica": 1.1666666666666667,
+     "proteccion_etapas": 0.0,
+     "ruptura_plagas": 0.7,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 35136.0,
+    "riesgoPlaga": 0.30000000000000004,
+    "score": 4.633,
+    "secuencia": [
+     "mucuna_abono_verde",
+     "frijol_xpelon",
+     "mucuna_abono_verde",
+     "milpa_tradicional"
+    ]
+   }
+  ],
+  "prioridades": {
+   "agua": 0,
+   "forraje": 0,
+   "ingreso": 5,
+   "suelo": 5
+  }
+ },
+ {
+  "areaHa": 18.0,
+  "escenario": "temporal_tardio",
+  "planes": [
+   {
+    "aguaTotalMm": 1400.0,
+    "deltaMo": 2.2,
+    "deltaN": 180.0,
+    "factores": {
+     "agua_eficiencia": 0.0,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.6666666666666667,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.33333333333333337,
+     "fijacion_n": 1.0833333333333335,
+     "infiltracion": 0.45833333333333337,
+     "ingreso_neto": 0.218,
+     "materia_organica": 1.1666666666666667,
+     "proteccion_etapas": 0.0,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 376704.0,
+    "riesgoPlaga": 0.35,
+    "score": 4.576333333333333,
+    "secuencia": [
+     "mucuna_abono_verde",
+     "milpa_tradicional",
+     "mucuna_abono_verde",
+     "milpa_tradicional"
+    ]
+   },
+   {
+    "aguaTotalMm": 1400.0,
+    "deltaMo": 2.2,
+    "deltaN": 180.0,
+    "factores": {
+     "agua_eficiencia": 0.0,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.6666666666666666,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.3333333333333333,
+     "fijacion_n": 1.0833333333333335,
+     "infiltracion": 0.45833333333333337,
+     "ingreso_neto": 0.218,
+     "materia_organica": 1.1666666666666667,
+     "proteccion_etapas": 0.0,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 376704.0,
+    "riesgoPlaga": 0.35,
+    "score": 4.576333333333333,
+    "secuencia": [
+     "milpa_tradicional",
+     "mucuna_abono_verde",
+     "milpa_tradicional",
+     "mucuna_abono_verde"
+    ]
+   },
+   {
+    "aguaTotalMm": 1330.0,
+    "deltaMo": 2.2,
+    "deltaN": 180.0,
+    "factores": {
+     "agua_eficiencia": 0.0,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.6666666666666667,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.33333333333333337,
+     "fijacion_n": 1.0833333333333335,
+     "infiltracion": 0.45833333333333337,
+     "ingreso_neto": 0.20566666666666666,
+     "materia_organica": 1.1666666666666667,
+     "proteccion_etapas": 0.0,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.0
+    },
+    "ingresoEstimado": 355392.0,
+    "riesgoPlaga": 0.35,
+    "score": 4.564,
+    "secuencia": [
+     "mucuna_abono_verde",
+     "milpa_tradicional",
+     "mucuna_abono_verde",
+     "milpa_ciclo_corto_criollo"
+    ]
+   }
+  ],
+  "prioridades": {
+   "agua": 0,
+   "forraje": 0,
+   "ingreso": 5,
+   "suelo": 5
+  }
+ },
+ {
+  "areaHa": 2.0,
+  "escenario": "temporal_tardio",
+  "planes": [
+   {
+    "aguaTotalMm": 1220.0,
+    "deltaMo": 1.8,
+    "deltaN": 140.0,
+    "factores": {
+     "agua_eficiencia": 0.21666666666666662,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.25,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.33333333333333337,
+     "fijacion_n": 0.39999999999999997,
+     "infiltracion": 0.18333333333333335,
+     "ingreso_neto": 0.19333333333333333,
+     "materia_organica": 0.39999999999999997,
+     "proteccion_etapas": 0.44499999999999995,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.3333333333333333
+    },
+    "ingresoEstimado": 37120.0,
+    "riesgoPlaga": 0.35,
+    "score": 3.405,
+    "secuencia": [
+     "canavalia_cobertura",
+     "milpa_ciclo_corto_criollo",
+     "canavalia_cobertura",
+     "milpa_ciclo_corto_criollo"
+    ]
+   },
+   {
+    "aguaTotalMm": 1220.0,
+    "deltaMo": 1.7999999999999998,
+    "deltaN": 140.0,
+    "factores": {
+     "agua_eficiencia": 0.21666666666666662,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.25,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.3333333333333333,
+     "fijacion_n": 0.4,
+     "infiltracion": 0.18333333333333335,
+     "ingreso_neto": 0.19333333333333333,
+     "materia_organica": 0.39999999999999997,
+     "proteccion_etapas": 0.44499999999999995,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.3333333333333333
+    },
+    "ingresoEstimado": 37120.0,
+    "riesgoPlaga": 0.35,
+    "score": 3.405,
+    "secuencia": [
+     "milpa_ciclo_corto_criollo",
+     "canavalia_cobertura",
+     "milpa_ciclo_corto_criollo",
+     "canavalia_cobertura"
+    ]
+   },
+   {
+    "aguaTotalMm": 1290.0,
+    "deltaMo": 1.8,
+    "deltaN": 140.0,
+    "factores": {
+     "agua_eficiencia": 0.20416666666666666,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.25,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.33333333333333337,
+     "fijacion_n": 0.39999999999999997,
+     "infiltracion": 0.18333333333333335,
+     "ingreso_neto": 0.20566666666666666,
+     "materia_organica": 0.39999999999999997,
+     "proteccion_etapas": 0.42749999999999994,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.35
+    },
+    "ingresoEstimado": 39488.0,
+    "riesgoPlaga": 0.35,
+    "score": 3.404,
+    "secuencia": [
+     "canavalia_cobertura",
+     "milpa_tradicional",
+     "canavalia_cobertura",
+     "milpa_ciclo_corto_criollo"
+    ]
+   }
+  ],
+  "prioridades": {
+   "agua": 1,
+   "forraje": 4,
+   "ingreso": 5,
+   "suelo": 2
+  }
+ },
+ {
+  "areaHa": 18.0,
+  "escenario": "temporal_tardio",
+  "planes": [
+   {
+    "aguaTotalMm": 1220.0,
+    "deltaMo": 1.8,
+    "deltaN": 140.0,
+    "factores": {
+     "agua_eficiencia": 0.21666666666666662,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.25,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.33333333333333337,
+     "fijacion_n": 0.39999999999999997,
+     "infiltracion": 0.18333333333333335,
+     "ingreso_neto": 0.19333333333333333,
+     "materia_organica": 0.39999999999999997,
+     "proteccion_etapas": 0.44499999999999995,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.3333333333333333
+    },
+    "ingresoEstimado": 334080.0,
+    "riesgoPlaga": 0.35,
+    "score": 3.405,
+    "secuencia": [
+     "canavalia_cobertura",
+     "milpa_ciclo_corto_criollo",
+     "canavalia_cobertura",
+     "milpa_ciclo_corto_criollo"
+    ]
+   },
+   {
+    "aguaTotalMm": 1220.0,
+    "deltaMo": 1.7999999999999998,
+    "deltaN": 140.0,
+    "factores": {
+     "agua_eficiencia": 0.21666666666666662,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.25,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.3333333333333333,
+     "fijacion_n": 0.4,
+     "infiltracion": 0.18333333333333335,
+     "ingreso_neto": 0.19333333333333333,
+     "materia_organica": 0.39999999999999997,
+     "proteccion_etapas": 0.44499999999999995,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.3333333333333333
+    },
+    "ingresoEstimado": 334080.0,
+    "riesgoPlaga": 0.35,
+    "score": 3.405,
+    "secuencia": [
+     "milpa_ciclo_corto_criollo",
+     "canavalia_cobertura",
+     "milpa_ciclo_corto_criollo",
+     "canavalia_cobertura"
+    ]
+   },
+   {
+    "aguaTotalMm": 1290.0,
+    "deltaMo": 1.8,
+    "deltaN": 140.0,
+    "factores": {
+     "agua_eficiencia": 0.20416666666666666,
+     "barbecho_excesivo": -0.0,
+     "concentracion_riesgo": -0.0,
+     "control_erosion": 0.25,
+     "dependencia_monocultivo": -0.0,
+     "estabilidad_ingreso": 0.33333333333333337,
+     "fijacion_n": 0.39999999999999997,
+     "infiltracion": 0.18333333333333335,
+     "ingreso_neto": 0.20566666666666666,
+     "materia_organica": 0.39999999999999997,
+     "proteccion_etapas": 0.42749999999999994,
+     "ruptura_plagas": 0.65,
+     "valor_forrajero": 0.35
+    },
+    "ingresoEstimado": 355392.0,
+    "riesgoPlaga": 0.35,
+    "score": 3.404,
+    "secuencia": [
+     "canavalia_cobertura",
+     "milpa_tradicional",
+     "canavalia_cobertura",
+     "milpa_ciclo_corto_criollo"
+    ]
+   }
+  ],
+  "prioridades": {
+   "agua": 1,
+   "forraje": 4,
+   "ingreso": 5,
+   "suelo": 2
+  }
+ }
+]

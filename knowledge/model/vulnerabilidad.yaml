@@ -1,0 +1,24 @@
+# Índice de vulnerabilidad por celda de 100 m a partir de capas NASA. TODOS LOS UMBRALES Y PESOS SON PROVISIONALES:
+# son punto de partida de ingeniería, no resultados de investigación; los fija y valida un agrónomo.
+_p: &p {fuente: "pendiente de validación INIFAP/extensionista", estatus: provisional}
+
+incertidumbre:
+  - id: vulnerabilidad_pesos
+    nombre: Peso de cada componente en el índice (suman 1)
+    parametros:
+      erosion: {valor: 0.30, unidad: peso, <<: *p}
+      agua: {valor: 0.40, unidad: peso, <<: *p}
+      calor: {valor: 0.15, unidad: peso, <<: *p}
+      vegetacion: {valor: 0.15, unidad: peso, <<: *p}
+  - id: vulnerabilidad_umbrales
+    nombre: Rangos que llevan cada variable a 0-1
+    parametros:
+      pendiente_max_pct: {valor: 8.0, unidad: "%", <<: *p}
+      ndvi_bajo: {valor: 0.30, unidad: NDVI, <<: *p}
+      ndvi_alto: {valor: 0.70, unidad: NDVI, <<: *p}
+      lst_fresca_c: {valor: 30.0, unidad: °C, <<: *p}
+      lst_caliente_c: {valor: 42.0, unidad: °C, <<: *p}
+      humedad_seca: {valor: 0.12, unidad: m³/m³, <<: *p}
+      humedad_humeda: {valor: 0.30, unidad: m³/m³, <<: *p}
+      nivel_cuidado: {valor: 0.35, unidad: índice, <<: *p}
+      nivel_mucho: {valor: 0.60, unidad: índice, <<: *p}

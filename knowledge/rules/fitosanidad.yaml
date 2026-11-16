@@ -1,0 +1,32 @@
+# Reglas de rotación. Selectores: id:<opción> | fam:<familia> | host:<hospedante>
+# Severidad >= 3 = restricción dura; menor = solo resta utilidad "ruptura_plagas".
+rules:
+  - id: chile_intervalo_retorno
+    tipo: intervalo_retorno
+    selector_a: "id:chile_habanero"
+    selector_b: "id:chile_habanero"
+    anios_min: 2
+    severidad: 3
+    descripcion: El chile habanero no debe repetirse en la misma parcela antes de 2 años de descanso.
+    fuente: "pendiente de validación INIFAP/extensionista"
+    estatus: provisional
+
+  - id: hospedante_virus_solanaceas
+    tipo: hospedante_comun
+    selector_a: "host:virus_solanaceas"
+    selector_b: "host:virus_solanaceas"
+    anios_min: 1
+    severidad: 3
+    descripcion: Cultivos con el mismo hospedante de virus de solanáceas no van en ciclos seguidos.
+    fuente: "pendiente de validación INIFAP/extensionista"
+    estatus: provisional
+
+  - id: cucurbitaceas_consecutivas
+    tipo: familia_consecutiva
+    selector_a: "fam:cucurbitaceae"
+    selector_b: "fam:cucurbitaceae"
+    anios_min: 1
+    severidad: 2
+    descripcion: Evitar cucurbitáceas en ciclos seguidos (riesgo moderado de plagas compartidas).
+    fuente: "pendiente de validación INIFAP/extensionista"
+    estatus: provisional

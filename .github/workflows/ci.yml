@@ -1,0 +1,68 @@
+name: ci
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    services:
+      db:
+        image: postgis/postgis:16-3.4
+        env:
+          POSTGRES_USER: milpa
+          POSTGRES_PASSWORD: milpa_dev_only
+          POSTGRES_DB: milpa
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U milpa"
+          --health-interval 5s
+          --health-retries 10
+    env:
+      DATABASE_URL: postgresql://milpa:milpa_dev_only@localhost:5432/milpa
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v3
+      - run: uv sync --python 3.12
+      - run: make check
+      - name: Auditoría de dependencias Python
+        run: uvx pip-audit --strict --progress-spinner off -r <(uv export --no-hashes --no-dev --format requirements-txt 2>/dev/null) || echo "::warning::pip-audit reportó hallazgos; revisar"
+        shell: bash
+  web:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: apps/web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: apps/web/package-lock.json
+      - run: npm ci
+      - run: npx tsc --noEmit
+      - run: npx vitest run
+      - run: npm run build
+      - name: Auditoría de dependencias npm (producción)
+        run: npm audit --omit=dev --audit-level=high
+  secrets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

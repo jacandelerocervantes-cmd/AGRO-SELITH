@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+node_modules/
+dist/
+.env
+*.egg-info/
+.cache/
+apps/web/test-results/
+apps/web/playwright-report/
+apps/web/dist/
+
+# Solo local: documentación interna, notas de proceso e infraestructura no usada (no forman parte de la web app)
+/docs/*
+!/docs/validacion_eeuu.json
+/CLAUDE.md
+/infra/
+/scripts/deploy.ps1

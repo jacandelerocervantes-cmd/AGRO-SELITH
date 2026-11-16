@@ -1,0 +1,18 @@
+# Modelo de lenguaje (API de Claude). La llave va SOLO en la variable de entorno ANTHROPIC_API_KEY.
+# Decisión del dueño: solo modelos económicos (Sonnet y Haiku); sin Fable ni Opus.
+# El LLM NO sustituye al motor determinista: explica, responde preguntas y redacta,
+# siempre ancladas a la base agronómica y citando fuente/estatus. El agricultor decide.
+proveedor: anthropic
+modelo_principal: claude-sonnet-5-5    # respuestas al productor y juez del benchmark
+modelo_rapido: claude-haiku-5-5        # volumen alto / latencia baja (resúmenes, lectura en voz alta)
+modelo_respaldo: claude-haiku-5-5      # si el principal falla o no hay cuota
+esfuerzo:                              # output_config.effort (Sonnet 5.5 / Haiku 5.5 rechazan temperature)
+  principal: medium
+  rapido: low
+max_tokens: 1024
+fallback_servidor_por_rechazo: true    # beta server-side-fallback; solo actúa si el modelo rechaza la petición
+modo_demo_sin_llave: true              # sin ANTHROPIC_API_KEY responde con textos precalculados etiquetados
+benchmark:
+  juez: claude-sonnet-5-5
+  modelos_a_comparar: [claude-sonnet-5-5, claude-haiku-5-5]
+  # Si Haiku alcanza el umbral de calidad del benchmark, pasa a ser el principal (menor costo).

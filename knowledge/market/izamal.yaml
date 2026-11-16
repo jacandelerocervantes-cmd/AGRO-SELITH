@@ -1,0 +1,15 @@
+# Capacidad de absorción del mercado local. SINTÉTICO: cifras de desarrollo, no son datos de mercado.
+# Reemplazar con SIAP/SNIIM (Mérida) + demanda regional y autoconsumo.
+mercado:
+  - opcion_id: calabaza_pepita
+    sintetico: true
+    parametros:
+      capacidad_absorcion_ha: {valor: 40, unidad: ha, fuente: "sintético de demo (sin fuente)", estatus: provisional}
+  - opcion_id: frijol_xpelon
+    sintetico: true
+    parametros:
+      capacidad_absorcion_ha: {valor: 30, unidad: ha, fuente: "sintético de demo (sin fuente)", estatus: provisional}
+  - opcion_id: chile_habanero
+    sintetico: true
+    parametros:
+      capacidad_absorcion_ha: {valor: 20, unidad: ha, fuente: "sintético de demo (sin fuente)", estatus: provisional}

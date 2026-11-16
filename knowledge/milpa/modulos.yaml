@@ -1,0 +1,56 @@
+# Módulos milpa (policultivos). VALORES DE RELLENO PROVISIONALES: NO usar con agricultores.
+# Las reglas locales del milpero (calendario, indicadores de lluvia) se capturan en la vista de experto
+# con su fuente (persona/comunidad, con consentimiento) y estatus provisional hasta validarse.
+_prov: &prov {fuente: "pendiente de validación INIFAP/extensionista", estatus: provisional}
+_idx: &idx {unidad: "índice relativo 0-1", fuente: "pendiente de validación INIFAP/extensionista", estatus: provisional}
+
+opciones:
+  - id: milpa_tradicional
+    nombre: Milpa (maíz, frijol y calabaza)
+    tipo: [milpa, policultivo]
+    componentes: [maiz, frijol, calabaza]
+    familias: [poaceae, fabaceae, cucurbitaceae]
+    hospedantes: []
+    es_barbecho: false
+    es_barbecho_desnudo: false
+    parametros:
+      agua_mm_ciclo: {valor: 450, unidad: mm/ciclo, <<: *prov}
+      tolerancia_sequia: {valor: 3, unidad: "escala 1-5", <<: *prov}
+      sensibilidad_canicula: {valor: 0.8, unidad: "índice 0-1", <<: *prov}
+      ingreso_ref_mxn_ha: {valor: 12000, unidad: MXN/ha, <<: *prov}
+      n_aporte_kg_ha: {valor: 10, unidad: kg N/ha, <<: *prov}
+      mo_aporte: {valor: 0.3, unidad: "índice relativo", <<: *prov}
+    utilidades:
+      agua_eficiencia: {valor: 0.55, <<: *idx}
+      fijacion_n: {valor: 0.4, <<: *idx}
+      materia_organica: {valor: 0.5, <<: *idx}
+      control_erosion: {valor: 0.7, <<: *idx}
+      infiltracion: {valor: 0.5, <<: *idx}
+      ruptura_plagas: {valor: 0.5, <<: *idx}
+      valor_forrajero: {valor: 0.5, <<: *idx}
+      estabilidad_ingreso: {valor: 0.6, <<: *idx}
+
+  - id: milpa_ciclo_corto_criollo
+    nombre: Milpa con maíz criollo de ciclo corto
+    tipo: [milpa, policultivo]
+    componentes: [maiz_ciclo_corto, frijol, calabaza]
+    familias: [poaceae, fabaceae, cucurbitaceae]
+    hospedantes: []
+    es_barbecho: false
+    es_barbecho_desnudo: false
+    parametros:
+      agua_mm_ciclo: {valor: 380, unidad: mm/ciclo, <<: *prov}
+      tolerancia_sequia: {valor: 3, unidad: "escala 1-5", <<: *prov}
+      sensibilidad_canicula: {valor: 0.45, unidad: "índice 0-1", <<: *prov}
+      ingreso_ref_mxn_ha: {valor: 10000, unidad: MXN/ha, <<: *prov}
+      n_aporte_kg_ha: {valor: 10, unidad: kg N/ha, <<: *prov}
+      mo_aporte: {valor: 0.3, unidad: "índice relativo", <<: *prov}
+    utilidades:
+      agua_eficiencia: {valor: 0.7, <<: *idx}
+      fijacion_n: {valor: 0.4, <<: *idx}
+      materia_organica: {valor: 0.5, <<: *idx}
+      control_erosion: {valor: 0.7, <<: *idx}
+      infiltracion: {valor: 0.5, <<: *idx}
+      ruptura_plagas: {valor: 0.5, <<: *idx}
+      valor_forrajero: {valor: 0.4, <<: *idx}
+      estabilidad_ingreso: {valor: 0.6, <<: *idx}

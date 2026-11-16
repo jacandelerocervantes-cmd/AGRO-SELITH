@@ -1,0 +1,11 @@
+# Región piloto (cambiar aquí si el municipio es otro).
+municipio: Tizimín
+estado: Yucatán
+municipio_cve: "31096"   # clave INEGI de Tizimín (VERIFICAR contra catálogo INEGI)
+sistema: milpa
+centro: {lat: 21.1427, lon: -88.1503}   # aprox. cabecera de Tizimín (coordenadas públicas; verificar)
+bbox_wgs84: null         # pendiente: se fija en F2 al cargar el CEM/INEGI
+resolucion_rejilla_m: 100
+idioma: es
+idiomas_futuros: [yua]    # maya yucateco, fase 2
+escenarios: [normal, canicula_prolongada, temporal_tardio, huracan]

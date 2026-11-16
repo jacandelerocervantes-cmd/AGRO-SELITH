@@ -1,0 +1,109 @@
+{
+ "lugar": {
+  "condado": "Hidalgo, Texas (FIPS 48215)",
+  "lat": 26.28,
+  "lon": -97.93
+ },
+ "suelo_ssurgo": {
+  "unidad_suelo": "Hidalgo sandy clay loam, 0 to 1 percent slopes",
+  "componente": "Hidalgo",
+  "drenaje": "Well drained",
+  "grupo_hidrologico": "B",
+  "arena_pct": 55.0,
+  "limo_pct": 18.0,
+  "arcilla_pct": 27.0,
+  "materia_organica_pct": 1.5,
+  "agua_disponible_cm_cm": 0.13,
+  "ph": 8.2,
+  "profundidad_cm": [
+   0.0,
+   43.0
+  ]
+ },
+ "soilgrids_vs_ssurgo": {
+  "arcilla_pct": {
+   "ssurgo": 27.0,
+   "soilgrids": 27.9,
+   "error_relativo": 0.03333333333333328
+  },
+  "arena_pct": {
+   "ssurgo": 55.0,
+   "soilgrids": 48.6,
+   "error_relativo": 0.11636363636363634
+  },
+  "materia_organica_pct": {
+   "ssurgo": 1.5,
+   "soilgrids": 4.5686,
+   "error_relativo": 2.045733333333333
+  },
+  "ph": {
+   "ssurgo": 8.2,
+   "soilgrids": 7.4,
+   "error_relativo": 0.09756097560975598
+  },
+  "cv_relativo_medio": 0.5732478196600147
+ },
+ "rotacion_cdl": {
+  "anios": [
+   2008,
+   2009,
+   2010,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021
+  ],
+  "dominante_por_anio": {
+   "2008": "Sugarcane",
+   "2009": "Sorghum",
+   "2010": "Grassland/Pasture",
+   "2011": "Cotton",
+   "2012": "Sorghum",
+   "2013": "Sugarcane",
+   "2014": "Sugarcane",
+   "2015": "Sugarcane",
+   "2016": "Sugarcane",
+   "2017": "Cotton",
+   "2018": "Sugarcane",
+   "2019": "Sugarcane",
+   "2020": "Cotton",
+   "2021": "Cotton"
+  },
+  "cambios_de_un_anio_al_siguiente": 8,
+  "transiciones_posibles": 13,
+  "anios_por_cultivo": {
+   "Sugarcane": 7,
+   "Cotton": 4,
+   "Sorghum": 2,
+   "Grassland/Pasture": 1
+  }
+ },
+ "naip": {
+  "fecha": "2022-06-05",
+  "resolucion_m": 3.0,
+  "ndvi_medio": 0.23186653873846322
+ },
+ "ndvi_sentinel2_10m_vs_naip": {
+  "fecha_escena": "2022-05-16",
+  "n_pixeles": 16080,
+  "correlacion": 0.8463004928221378,
+  "sesgo": 0.3377612024813053,
+  "rmse": 0.35646346657703915,
+  "ndvi_ref_medio": 0.2324012654787467
+ },
+ "ndvi_landsat_30m_vs_naip": {
+  "fecha_escena": "2022-06-13",
+  "n_pixeles": 1800,
+  "correlacion": 0.8392822657037924,
+  "sesgo": 0.4150311786434616,
+  "rmse": 0.4286766519843252,
+  "ndvi_ref_medio": 0.23278519189305422
+ }
+}

@@ -1,0 +1,18 @@
+services:
+  db:
+    image: postgis/postgis:16-3.4
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-milpa}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-milpa_dev_only}
+      POSTGRES_DB: ${POSTGRES_DB:-milpa}
+    ports:
+      - "5432:5432"
+    volumes:
+      - dbdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-milpa}"]
+      interval: 5s
+      retries: 10
+
+volumes:
+  dbdata:

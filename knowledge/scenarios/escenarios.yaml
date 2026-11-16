@@ -1,0 +1,32 @@
+# Escenarios del simulador (sin helada). Parámetros PROVISIONALES de desarrollo.
+_p: &p {fuente: "pendiente de validación INIFAP/extensionista", estatus: provisional}
+
+escenarios:
+  - id: normal
+    nombre: Año normal
+    parametros:
+      severidad_canicula: {valor: 0.0, unidad: "índice 0-1", <<: *p}
+      factor_demanda_agua: {valor: 1.0, unidad: factor, <<: *p}
+      factor_estres_ingreso: {valor: 0.0, unidad: factor, <<: *p}
+      tolerancia_minima: {valor: 1, unidad: "escala 1-5", <<: *p}
+  - id: canicula_prolongada
+    nombre: Canícula prolongada
+    parametros:
+      severidad_canicula: {valor: 0.8, unidad: "índice 0-1", <<: *p}
+      factor_demanda_agua: {valor: 1.0, unidad: factor, <<: *p}
+      factor_estres_ingreso: {valor: 0.6, unidad: factor, <<: *p}
+      tolerancia_minima: {valor: 2, unidad: "escala 1-5", <<: *p}
+  - id: temporal_tardio
+    nombre: Temporal tardío
+    parametros:
+      severidad_canicula: {valor: 0.4, unidad: "índice 0-1", <<: *p}
+      factor_demanda_agua: {valor: 1.0, unidad: factor, <<: *p}
+      factor_estres_ingreso: {valor: 0.4, unidad: factor, <<: *p}
+      tolerancia_minima: {valor: 2, unidad: "escala 1-5", <<: *p}
+  - id: huracan
+    nombre: Huracán o lluvia extrema
+    parametros:
+      severidad_canicula: {valor: 0.3, unidad: "índice 0-1", <<: *p}
+      factor_demanda_agua: {valor: 1.0, unidad: factor, <<: *p}
+      factor_estres_ingreso: {valor: 0.5, unidad: factor, <<: *p}
+      tolerancia_minima: {valor: 1, unidad: "escala 1-5", <<: *p}

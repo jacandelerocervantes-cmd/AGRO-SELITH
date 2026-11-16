@@ -1,0 +1,13 @@
+.venv
+.git
+**/node_modules
+**/dist
+**/__pycache__
+.pytest_cache
+.mypy_cache
+.ruff_cache
+.hypothesis
+pipelines/.cache
+apps/web/test-results
+apps/web/playwright-report
+.env
