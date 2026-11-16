@@ -95,7 +95,7 @@ const es = {
     descartar: 'Descartar',
     decidido: 'Decisión guardada: {{d}}',
     puntaje: 'Puntaje {{s}} (entre {{p10}} y {{p90}})',
-    escenario: { normal: 'Año normal', canicula_prolongada: 'Canícula larga', temporal_tardio: 'Lluvia tardía', huracan: 'Huracán' },
+    escenario: { normal: 'Año normal', canicula_prolongada: 'Canícula larga', temporal_tardio: 'Lluvia tardía', huracan: 'Huracán (aproximado)' },
     datosEjemplo: 'Parámetros provisionales, aún sin validar por expertos.',
   },
   reportes: {
@@ -232,7 +232,7 @@ const en: typeof es = {
     descartar: 'Discard',
     decidido: 'Decision saved: {{d}}',
     puntaje: 'Score {{s}} (between {{p10}} and {{p90}})',
-    escenario: { normal: 'Normal year', canicula_prolongada: 'Long dry spell', temporal_tardio: 'Late rains', huracan: 'Hurricane' },
+    escenario: { normal: 'Normal year', canicula_prolongada: 'Long dry spell', temporal_tardio: 'Late rains', huracan: 'Hurricane (approximate)' },
     datosEjemplo: 'Provisional parameters, not yet validated by experts.',
   },
   reportes: {

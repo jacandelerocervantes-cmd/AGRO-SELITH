@@ -51,20 +51,26 @@ export function ponerFondo(m: maplibregl.Map, fondo: Fondo) {
   m.setLayoutProperty('fondo-calles', 'visibility', fondo === 'calles' ? 'visible' : 'none');
 }
 
-const RAMPAS: Record<string, [string, string]> = {
-  ndvi_landsat: ['#a77d4a', '#2f7a2c'], ndvi_modis: ['#a77d4a', '#2f7a2c'], ndvi_s2: ['#a77d4a', '#2f7a2c'], lst_modis: ['#f2d36b', '#c4452f'], et_modis: ['#d6e6f2', '#1f4f8a'], imerg: ['#d6e6f2', '#1f4f8a'], smap: ['#e8d8a8', '#1f6a9c'],
-  gldas: ['#e8d8a8', '#1f6a9c'], gldas_et: ['#d6e6f2', '#1f4f8a'], grace: ['#c4452f', '#1f6a9c'], lst: ['#f2d36b', '#c4452f'],
-  srtm_pendiente_pct: ['#f2e8b0', '#9a4a1f'], srtm_elevacion: ['#9bc46f', '#8a6a3a'], gedi: ['#e8e2b0', '#2f5a2c'],
+// Rampas de datos (no semáforo): perceptualmente ordenadas y distinguibles en daltonismo. Ver la auditoría de diseño.
+const NDVI = ['#8C510A', '#D8B365', '#F6E8A6', '#A6D96A', '#4D9A3A', '#1B5E20'];
+const AZULES = ['#DCE9F5', '#C6DBEF', '#6BAED6', '#2171B5', '#08306B'];
+const CALOR = ['#FFF3C4', '#FDBB5A', '#F46D2B', '#C0261B', '#6E0F1B'];
+const RIESGO = ['#F6E8C3', '#D8A24A', '#A5651A', '#5C3208'];
+const SECO_HUMEDO = ['#8C510A', '#D8B365', '#F5F5F5', '#5AB4AC', '#01665E'];
+const RAMPAS: Record<string, string[]> = {
+  ndvi_landsat: NDVI, ndvi_modis: NDVI, ndvi_s2: NDVI, lst_modis: CALOR, lst: CALOR,
+  et_modis: AZULES, imerg: AZULES, smap: AZULES, gldas: AZULES, gldas_et: AZULES, grace: SECO_HUMEDO,
+  srtm_pendiente_pct: ['#F6E8C3', '#D8A24A', '#8C510A'], srtm_elevacion: ['#E8E4D8', '#B8A07A', '#8C6A3A'],
+  gedi: ['#F6E8A6', '#A6D96A', '#1B5E20'], vulnerabilidad: RIESGO,
 };
+const POR_DEFECTO = AZULES;
 
 export function colorDe(capa: string, v: CapaValores): maplibregl.ExpressionSpecification {
-  if (capa === 'vulnerabilidad') {
-    return ['interpolate', ['linear'], ['coalesce', ['get', 'valor'], 0], 0, '#4f9a4a', 0.35, '#e0a42f', 0.6, '#c4452f'];
-  }
-  const [c0, c1] = RAMPAS[capa] ?? ['#e8d8a8', '#1f6a9c'];
-  const lo = v.min ?? 0;
-  const hi = v.max !== null && v.max > lo ? v.max : lo + 1;
-  return ['interpolate', ['linear'], ['coalesce', ['get', 'valor'], lo], lo, c0, hi, c1];
+  const rampa = RAMPAS[capa] ?? POR_DEFECTO;
+  const lo = capa === 'vulnerabilidad' ? 0 : (v.min ?? 0);
+  const hi = capa === 'vulnerabilidad' ? 1 : v.max !== null && v.max > lo ? v.max : lo + 1;
+  const paradas = rampa.flatMap((c, i) => [lo + ((hi - lo) * i) / (rampa.length - 1), c]);
+  return ['interpolate', ['linear'], ['coalesce', ['get', 'valor'], lo], ...paradas] as maplibregl.ExpressionSpecification;
 }
 
 /** Pinta (o quita) una capa de celdas de 100 m sobre el mapa. */
@@ -148,7 +154,7 @@ export function CapasPanel({ parcelId, mapa, fondo, onFondo }: PanelProps) {
       </div>
       {capa && valores.data && info && (
         <div className="leyenda-capa" data-testid="leyenda-capa">
-          <div className="barra-color" style={{ background: capa === 'vulnerabilidad' ? 'linear-gradient(90deg,#4f9a4a,#e0a42f,#c4452f)' : `linear-gradient(90deg,${(RAMPAS[capa] ?? ['#e8d8a8', '#1f6a9c']).join(',')})` }} />
+          <div className="barra-color" style={{ background: `linear-gradient(90deg,${(RAMPAS[capa] ?? POR_DEFECTO).join(',')})` }} />
           <div className="rango"><span>{valores.data.min?.toFixed(2) ?? '–'}</span><span>{valores.data.unidad}</span><span>{valores.data.max?.toFixed(2) ?? '–'}</span></div>
           <small>{t('mapa.fuente')}: {valores.data.fuente}{valores.data.sintetico ? ` · ${t('mapa.ejemplo')}` : ''}</small>
           {valores.data.resolucion_nativa_m && <small>{t('mapa.resolucion', { m: valores.data.resolucion_nativa_m })}</small>}

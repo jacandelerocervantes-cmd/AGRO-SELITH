@@ -557,7 +557,7 @@
     ]
    },
    {
-    "aguaTotalMm": 1330.0,
+    "aguaTotalMm": 1380.0,
     "deltaMo": 2.2,
     "deltaN": 180.0,
     "factores": {
@@ -1250,7 +1250,7 @@
     ]
    },
    {
-    "aguaTotalMm": 1270.0,
+    "aguaTotalMm": 1320.0,
     "deltaMo": 2.2,
     "deltaN": 200.0,
     "factores": {
@@ -1291,7 +1291,7 @@
   "escenario": "huracan",
   "planes": [
    {
-    "aguaTotalMm": 1400.0,
+    "aguaTotalMm": 1500.0,
     "deltaMo": 2.2,
     "deltaN": 180.0,
     "factores": {
@@ -1320,7 +1320,7 @@
     ]
    },
    {
-    "aguaTotalMm": 1400.0,
+    "aguaTotalMm": 1500.0,
     "deltaMo": 2.2,
     "deltaN": 180.0,
     "factores": {
@@ -1349,7 +1349,7 @@
     ]
    },
    {
-    "aguaTotalMm": 1330.0,
+    "aguaTotalMm": 1380.0,
     "deltaMo": 2.2,
     "deltaN": 180.0,
     "factores": {
@@ -1390,7 +1390,7 @@
   "escenario": "huracan",
   "planes": [
    {
-    "aguaTotalMm": 1360.0,
+    "aguaTotalMm": 1460.0,
     "deltaMo": 1.8,
     "deltaN": 140.0,
     "factores": {
@@ -1419,7 +1419,7 @@
     ]
    },
    {
-    "aguaTotalMm": 1360.0,
+    "aguaTotalMm": 1460.0,
     "deltaMo": 1.7999999999999998,
     "deltaN": 140.0,
     "factores": {
@@ -1448,7 +1448,7 @@
     ]
    },
    {
-    "aguaTotalMm": 1230.0,
+    "aguaTotalMm": 1280.0,
     "deltaMo": 1.8,
     "deltaN": 160.0,
     "factores": {
@@ -1489,7 +1489,7 @@
   "escenario": "huracan",
   "planes": [
    {
-    "aguaTotalMm": 1360.0,
+    "aguaTotalMm": 1460.0,
     "deltaMo": 1.8,
     "deltaN": 140.0,
     "factores": {
@@ -1518,7 +1518,7 @@
     ]
    },
    {
-    "aguaTotalMm": 1360.0,
+    "aguaTotalMm": 1460.0,
     "deltaMo": 1.7999999999999998,
     "deltaN": 140.0,
     "factores": {
@@ -1547,7 +1547,7 @@
     ]
    },
    {
-    "aguaTotalMm": 1380.0,
+    "aguaTotalMm": 1480.0,
     "deltaMo": 2.0,
     "deltaN": 160.0,
     "factores": {
@@ -1745,7 +1745,7 @@
     ]
    },
    {
-    "aguaTotalMm": 1330.0,
+    "aguaTotalMm": 1380.0,
     "deltaMo": 2.2,
     "deltaN": 180.0,
     "factores": {
@@ -1943,7 +1943,7 @@
     ]
    },
    {
-    "aguaTotalMm": 830.0,
+    "aguaTotalMm": 880.0,
     "deltaMo": 1.6,
     "deltaN": 60.0,
     "factores": {
@@ -2042,7 +2042,7 @@
     ]
    },
    {
-    "aguaTotalMm": 1270.0,
+    "aguaTotalMm": 1320.0,
     "deltaMo": 2.2,
     "deltaN": 200.0,
     "factores": {
@@ -2083,7 +2083,7 @@
   "escenario": "normal",
   "planes": [
    {
-    "aguaTotalMm": 1400.0,
+    "aguaTotalMm": 1500.0,
     "deltaMo": 2.2,
     "deltaN": 180.0,
     "factores": {
@@ -2112,7 +2112,7 @@
     ]
    },
    {
-    "aguaTotalMm": 1400.0,
+    "aguaTotalMm": 1500.0,
     "deltaMo": 2.2,
     "deltaN": 180.0,
     "factores": {
@@ -2141,7 +2141,7 @@
     ]
    },
    {
-    "aguaTotalMm": 1330.0,
+    "aguaTotalMm": 1380.0,
     "deltaMo": 2.2,
     "deltaN": 180.0,
     "factores": {
@@ -2182,7 +2182,7 @@
   "escenario": "normal",
   "planes": [
    {
-    "aguaTotalMm": 1400.0,
+    "aguaTotalMm": 1500.0,
     "deltaMo": 2.2,
     "deltaN": 180.0,
     "factores": {
@@ -2211,7 +2211,7 @@
     ]
    },
    {
-    "aguaTotalMm": 1380.0,
+    "aguaTotalMm": 1480.0,
     "deltaMo": 2.0,
     "deltaN": 160.0,
     "factores": {
@@ -2240,7 +2240,7 @@
     ]
    },
    {
-    "aguaTotalMm": 1380.0,
+    "aguaTotalMm": 1480.0,
     "deltaMo": 2.0,
     "deltaN": 160.0,
     "factores": {
@@ -2281,7 +2281,7 @@
   "escenario": "normal",
   "planes": [
    {
-    "aguaTotalMm": 1400.0,
+    "aguaTotalMm": 1500.0,
     "deltaMo": 2.2,
     "deltaN": 180.0,
     "factores": {
@@ -2310,7 +2310,7 @@
     ]
    },
    {
-    "aguaTotalMm": 1380.0,
+    "aguaTotalMm": 1480.0,
     "deltaMo": 2.0,
     "deltaN": 160.0,
     "factores": {
@@ -2339,7 +2339,7 @@
     ]
    },
    {
-    "aguaTotalMm": 1380.0,
+    "aguaTotalMm": 1480.0,
     "deltaMo": 2.0,
     "deltaN": 160.0,
     "factores": {
@@ -2834,7 +2834,7 @@
     ]
    },
    {
-    "aguaTotalMm": 1270.0,
+    "aguaTotalMm": 1320.0,
     "deltaMo": 2.2,
     "deltaN": 200.0,
     "factores": {
@@ -2875,7 +2875,7 @@
   "escenario": "temporal_tardio",
   "planes": [
    {
-    "aguaTotalMm": 1400.0,
+    "aguaTotalMm": 1500.0,
     "deltaMo": 2.2,
     "deltaN": 180.0,
     "factores": {
@@ -2904,7 +2904,7 @@
     ]
    },
    {
-    "aguaTotalMm": 1400.0,
+    "aguaTotalMm": 1500.0,
     "deltaMo": 2.2,
     "deltaN": 180.0,
     "factores": {
@@ -2933,7 +2933,7 @@
     ]
    },
    {
-    "aguaTotalMm": 1330.0,
+    "aguaTotalMm": 1380.0,
     "deltaMo": 2.2,
     "deltaN": 180.0,
     "factores": {
@@ -3032,7 +3032,7 @@
     ]
    },
    {
-    "aguaTotalMm": 1290.0,
+    "aguaTotalMm": 1340.0,
     "deltaMo": 1.8,
     "deltaN": 140.0,
     "factores": {
@@ -3131,7 +3131,7 @@
     ]
    },
    {
-    "aguaTotalMm": 1290.0,
+    "aguaTotalMm": 1340.0,
     "deltaMo": 1.8,
     "deltaN": 140.0,
     "factores": {

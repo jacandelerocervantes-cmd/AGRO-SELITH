@@ -14,7 +14,9 @@ opciones:
     es_barbecho: false
     es_barbecho_desnudo: false
     parametros:
-      agua_mm_ciclo: {valor: 450, unidad: mm/ciclo, <<: *prov}
+      # Una milpa contiene maíz: su demanda de agua no puede ser menor que la del maíz solo (500 mm/ciclo).
+      # Su ventaja es EFICIENCIA (más producto y cobertura del suelo por mm: ver agua_eficiencia), no menor demanda.
+      agua_mm_ciclo: {valor: 500, unidad: mm/ciclo, <<: *prov}
       tolerancia_sequia: {valor: 3, unidad: "escala 1-5", <<: *prov}
       sensibilidad_canicula: {valor: 0.8, unidad: "índice 0-1", <<: *prov}
       ingreso_ref_mxn_ha: {valor: 12000, unidad: MXN/ha, <<: *prov}
@@ -39,6 +41,7 @@ opciones:
     es_barbecho: false
     es_barbecho_desnudo: false
     parametros:
+      # Menor que la milpa normal por usar maíz de ciclo corto (menos días de ciclo); sin fuente: provisional.
       agua_mm_ciclo: {valor: 380, unidad: mm/ciclo, <<: *prov}
       tolerancia_sequia: {valor: 3, unidad: "escala 1-5", <<: *prov}
       sensibilidad_canicula: {valor: 0.45, unidad: "índice 0-1", <<: *prov}

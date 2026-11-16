@@ -67,5 +67,8 @@ cd apps/web && npx vitest run      # paridad del motor TypeScript con Python
 cd apps/web && npx playwright test # extremo a extremo (productor, experto, sin señal)
 ```
 
+## Licencia
+Código bajo licencia MIT (ver `LICENSE`). Los datos de terceros conservan sus propias licencias.
+
 ## Datos y atribuciones
 Los datos de la NASA, ESA, FAO, USDA y demás agencias tienen sus propios términos de uso; el fondo satelital (Esri) y OpenStreetMap requieren atribución, y Esri revisión de términos para uso comercial.

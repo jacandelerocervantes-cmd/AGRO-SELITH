@@ -28,7 +28,7 @@ def test_canicula_cambia_el_plan_sin_subir_agua() -> None:
     normal = Motor(construir_problema(K, "normal")).recomendar(k=1)[0]
     seca = Motor(construir_problema(K, "canicula_prolongada")).recomendar(k=1)[0]
     assert seca.secuencia != normal.secuencia
-    assert seca.agua_total_mm <= 450 * 4 + 1e-6
+    assert seca.agua_total_mm <= 500 * 4 + 1e-6  # la práctica actual (milpa) demanda 500 mm/ciclo
 
 
 def test_mercado_bloquea_cultivo_si_la_parcela_supera_la_cuota() -> None:

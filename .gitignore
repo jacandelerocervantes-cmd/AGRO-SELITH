@@ -21,3 +21,8 @@ apps/web/dist/
 /CLAUDE.md
 /infra/
 /scripts/deploy.ps1
+
+# Material de video (se genera localmente)
+/video/
+/apps/web/e2e-video/
+/apps/web/playwright.video.config.ts

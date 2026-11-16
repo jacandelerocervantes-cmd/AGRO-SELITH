@@ -106,7 +106,9 @@ class Problema:
     ciclos_por_anio: int = 1
     area_ha: float = 1.0
     cuota_max: float = 0.15
-    sigma_ingreso: float = 0.15  # provisional
+    # Provisional. 0.15 era demasiado bajo frente a la variabilidad publicada de rendimientos (p. ej. maíz 820 a 4,750 kg/ha
+    # entre ensayos): daba intervalos falsamente estrechos. 0.35 es solo un orden de magnitud, no una estimación estadística.
+    sigma_ingreso: float = 0.35
     sigma_severidad: float = 0.10  # provisional
 
     @property

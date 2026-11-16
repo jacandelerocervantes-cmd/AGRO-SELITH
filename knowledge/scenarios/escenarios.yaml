@@ -1,4 +1,7 @@
 # Escenarios del simulador (sin helada). Parámetros PROVISIONALES de desarrollo.
+# factor_demanda_agua vale 1.0 en todos: está INACTIVO (se cancela en la restricción de agua, que compara cada opción
+# con la práctica actual). Se conserva para cuando haya datos de demanda por escenario.
+# El escenario 'huracan' NO modela inundación ni exceso de agua: solo aplica un estrés de ingreso genérico.
 _p: &p {fuente: "pendiente de validación INIFAP/extensionista", estatus: provisional}
 
 escenarios:
@@ -24,7 +27,7 @@ escenarios:
       factor_estres_ingreso: {valor: 0.4, unidad: factor, <<: *p}
       tolerancia_minima: {valor: 2, unidad: "escala 1-5", <<: *p}
   - id: huracan
-    nombre: Huracán o lluvia extrema
+    nombre: Huracán o lluvia extrema (aproximado, sin modelo de inundación)
     parametros:
       severidad_canicula: {valor: 0.3, unidad: "índice 0-1", <<: *p}
       factor_demanda_agua: {valor: 1.0, unidad: factor, <<: *p}
