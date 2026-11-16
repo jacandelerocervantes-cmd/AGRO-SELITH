@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 import logging
+import os
+import time
 from collections import defaultdict
 from typing import Any
 
@@ -37,10 +39,17 @@ def cargar_capas(conn: psycopg.Connection, modo: str = "demo", periodo: tuple[st
     filas: list[tuple[Any, ...]] = []
     estado: dict[str, dict[str, Any]] = {}
 
+    solo = {c.strip() for c in os.environ.get("MILPA_CAPAS", "").split(",") if c.strip()}
     for capa, cls in CAPAS_NASA.items():
+        if solo and capa not in solo:
+            continue
+        t0 = time.monotonic()
+        print(f"[{capa}] consultando...", flush=True)
         try:
             r = cls(modo=modo).obtener(lat=lat, lon=lon, bbox=bbox, inicio=ini, fin=fin)
+            print(f"[{capa}] listo en {time.monotonic() - t0:.0f} s (origen: {r.origen})", flush=True)
         except Exception as e:  # noqa: BLE001 - una capa caída no tumba las demás
+            print(f"[{capa}] NO disponible tras {time.monotonic() - t0:.0f} s: {str(e)[:120]}", flush=True)
             log.warning("capa %s no disponible: %s", capa, e)
             estado[capa] = {"disponible": False, "fuente": cls.fuente, "sintetico": False}
             continue
@@ -57,6 +66,10 @@ def cargar_capas(conn: psycopg.Connection, modo: str = "demo", periodo: tuple[st
             filas += serie_a_celdas(d, celdas, nombre, r.fuente, sint)
             if d.get("serie_et"):
                 filas += serie_a_celdas({**d, "unidad": "kg/m²/s"}, celdas, "gldas_et", r.fuente, sint, "serie_et")
+
+    if solo:  # diagnóstico por capa: no escribe en la base (el índice de vulnerabilidad necesita todas las capas juntas)
+        print("Modo diagnóstico (MILPA_CAPAS): no se escribió nada en la base.", flush=True)
+        return {"celdas": len(celdas), "filas": 0, "vulnerabilidad": 0, "capas": estado}
 
     filas = [f for f in filas if f[3] is not None]  # una capa sin ningún valor no cuenta como disponible
     capas_db = sorted({f[1] for f in filas})
