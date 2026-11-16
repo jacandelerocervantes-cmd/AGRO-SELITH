@@ -32,15 +32,24 @@ h1{font-size:44px;line-height:1.1;margin:0 0 16px;font-weight:700;font-family:Ge
 
 
 /* Landing */
-.hero{display:flex;flex-wrap:wrap;gap:40px;align-items:center;max-width:1180px;margin:0 auto;padding:24px 32px 48px}
-.hero>section{flex:1 1 480px;min-width:0}
-.sub{font-size:21px;color:var(--mut);margin-bottom:26px}
-.roles{display:flex;gap:16px;flex-wrap:wrap}
-.rol{flex:1 1 260px;border:2px solid var(--control)}.rol.principal{border-color:var(--brand)}
-.rol p{color:var(--mut);font-size:16px}.rol .big{width:100%;margin-top:8px}
-.nasa-nota{margin-top:6px}
-.mini-mapa{width:100%;display:block;border-radius:14px}
-.vista-previa .card{padding:14px}
+.landing{position:relative;min-height:100vh;display:flex;flex-direction:column;overflow:hidden}
+.hero-mapa{position:absolute;inset:0;z-index:0;background:#1f2d22}
+.hero-capa{position:absolute;left:20px;bottom:18px;z-index:2;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:6px 12px;font-size:14px;font-weight:700;display:flex;align-items:center;gap:8px}
+.hero-capa i{width:10px;height:10px;border-radius:50%;background:var(--brand2);display:inline-block}
+.landing-barra{position:relative;z-index:2;background:var(--card);border-bottom:1px solid var(--line)}
+.landing-centro{position:relative;z-index:1;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px 20px 72px}
+.landing-centro h1{max-width:960px;text-wrap:balance;margin:0 0 10px;color:#fff;text-shadow:0 2px 14px #000b}
+.landing-centro .sub{color:#fff;font-size:24px;margin:0 0 28px;text-shadow:0 1px 10px #000b}
+.roles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;width:min(860px,100%)}
+.rol{display:flex;flex-direction:column;text-align:left;min-height:230px}
+.rol h2{font-size:26px;font-family:Georgia,'Source Serif 4',serif}
+.rol p{color:var(--mut);font-size:18px}
+.rol .rol-pie{margin-top:auto}.rol .big{width:100%}
+.datos-fila{list-style:none;display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin:26px 0 8px;padding:0}
+.datos-fila li{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:8px 16px;font-size:17px}
+.datos-fila b{font-size:22px;color:var(--brand)}
+.nota-demo{color:#fff;font-size:14px;max-width:640px;text-shadow:0 1px 8px #000b;margin:6px 0 0}
+@media (max-width:700px){.roles{grid-template-columns:1fr}.landing-centro .sub{font-size:20px}}
 
 /* Pantalla del mapa */
 .pantalla-mapa{position:relative;height:100%;min-height:640px;overflow:hidden}

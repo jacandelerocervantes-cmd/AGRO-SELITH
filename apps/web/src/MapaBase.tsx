@@ -35,7 +35,7 @@ export function crearMapa(el: HTMLElement, centro: [number, number], zoom: numbe
       sources: {
         satelite: { type: 'raster', tiles: [ESRI], tileSize: 256, maxzoom: 19, attribution: 'Imágenes: Esri, Maxar, Earthstar Geographics' },
         calles: { type: 'raster', tiles: [OSM], tileSize: 256, maxzoom: 19, attribution: '© OpenStreetMap' },
-        ...Object.fromEntries(GIBS.map((g) => [g.id, { type: 'raster' as const, tiles: [tilesGibs(g)], tileSize: 256, maxzoom: 8, attribution: 'NASA GIBS' }])),
+        ...Object.fromEntries(GIBS.map((g) => [g.id, { type: 'raster' as const, tiles: [tilesGibs(g)], tileSize: 256, maxzoom: Math.min(9, Number(/Level(\d+)/.exec(g.matriz)?.[1] ?? 6)), attribution: 'NASA GIBS' }])),
       },
       layers: [
         { id: 'fondo-satelite', type: 'raster', source: 'satelite', layout: { visibility: fondo === 'satelite' ? 'visible' : 'none' } },

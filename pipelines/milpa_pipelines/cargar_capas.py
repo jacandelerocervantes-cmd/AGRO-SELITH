@@ -35,6 +35,7 @@ def cargar_capas(conn: psycopg.Connection, modo: str = "demo", periodo: tuple[st
     x0, y0, x1, y1 = unary_union([c.geom for c in celdas]).bounds
     bbox = [x0, y0, x1, y1]
     lat, lon = (y0 + y1) / 2, (x0 + x1) / 2
+    conn.commit()  # cierra la transacción de lectura: las descargas tardan minutos y Neon corta conexiones inactivas en transacción
     ini, fin = periodo
     filas: list[tuple[Any, ...]] = []
     estado: dict[str, dict[str, Any]] = {}
