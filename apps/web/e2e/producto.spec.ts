@@ -4,7 +4,7 @@ const EXPERTO = (area: string) => ({ 'X-Demo-Login': `demo-experto-${area}` });
 
 async function limpio(page: Page) {
   await page.goto('/');
-  await page.evaluate(() => localStorage.clear());
+  await page.evaluate(() => { localStorage.clear(); sessionStorage.clear(); });
   await page.reload();
 }
 

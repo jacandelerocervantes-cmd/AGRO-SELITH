@@ -14,7 +14,7 @@ async function entrar(page: Page, sesion: object | null, lang = 'es') {
   await page.evaluate(([s, l]) => {
     localStorage.clear();
     localStorage.setItem('milpa.lang', l as string);
-    if (s) localStorage.setItem('milpa.sesion', JSON.stringify(s));
+    if (s) sessionStorage.setItem('selith.sesion', JSON.stringify(s));
   }, [sesion, lang]);
   await page.reload();
 }

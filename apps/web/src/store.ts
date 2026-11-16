@@ -3,12 +3,13 @@ import { create } from 'zustand';
 export type Rol = 'agricultor' | 'extensionista' | 'admin';
 export type Pantalla = 'landing' | 'mapa' | 'chat' | 'reportes' | 'experto';
 
-const KEY = 'milpa.sesion';
+// sessionStorage: recargar la página conserva la sesión, pero una visita nueva (otra pestaña o ventana) empieza siempre en la portada
+const KEY = 'selith.sesion';
 type Guardado = { login: string; rol: Rol; areas: string[]; parcelaId: string | null } | null;
 
 const leer = (): Guardado => {
   try {
-    const s = localStorage.getItem(KEY);
+    const s = sessionStorage.getItem(KEY);
     return s ? (JSON.parse(s) as Guardado) : null;
   } catch {
     return null;
@@ -16,8 +17,8 @@ const leer = (): Guardado => {
 };
 const escribir = (g: Guardado) => {
   try {
-    if (g) localStorage.setItem(KEY, JSON.stringify(g));
-    else localStorage.removeItem(KEY);
+    if (g) sessionStorage.setItem(KEY, JSON.stringify(g));
+    else sessionStorage.removeItem(KEY);
   } catch {
     /* sin almacenamiento: la sesión vive en memoria */
   }
