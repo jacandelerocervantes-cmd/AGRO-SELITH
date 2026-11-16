@@ -79,7 +79,10 @@ def test_no_inventa_cifras_los_numeros_salen_del_plan() -> None:
     ahorro = planes[0].agua_total_mm - planes[1].agua_total_mm
     if ahorro > 1:
         assert f"{ahorro:.0f} mm" in " ".join(e["beneficios"])
-    assert f"{planes[1].ingreso_estimado:,.0f}" in " ".join(e["beneficios"])
+    texto = " ".join(e["beneficios"])
+    assert "MXN" not in texto  # nunca pesos: los parámetros de ingreso son de ejemplo
+    pct = (planes[1].ingreso_estimado / planes[0].ingreso_estimado - 1) * 100
+    assert f"{pct:+.0f} %" in texto and "provisionales" in texto  # solo la comparación relativa y la advertencia
 
 
 def test_gaez_aparece_como_evidencia_y_riesgo_con_cifras_reales_del_contexto() -> None:

@@ -39,9 +39,13 @@ T: dict[str, dict[str, str]] = {
         "es": "Corta mejor el ciclo de plagas (riesgo {r:.0%} frente a {r0:.0%}).",
         "en": "Breaks the pest cycle better (risk {r:.0%} versus {r0:.0%}).",
     },
+    "benef_nota": {
+        "es": "Son estimaciones del modelo con parámetros provisionales: no son una predicción validada.",
+        "en": "These are model estimates using provisional parameters, not a validated forecast.",
+    },
     "benef_ingreso": {
-        "es": "Ingreso estimado de {ing:,.0f} MXN en el periodo.",
-        "en": "Estimated income of {ing:,.0f} MXN over the period.",
+        "es": "Ingreso relativo estimado: {pct:+.0f} % frente a la rotación actual (parámetros de ejemplo).",
+        "en": "Estimated income relative to the current rotation: {pct:+.0f}% (example parameters).",
     },
     "ev_capa": {
         "es": "{capa} ({fuente}): {estado}",
@@ -148,7 +152,9 @@ def explicar(plan: Plan, base: Plan, contexto: dict[str, Any], idioma: str = "es
             beneficios.append(_t("benef_mo", idioma, dmo=plan.delta_mo - base.delta_mo))
         if base.riesgo_plaga - plan.riesgo_plaga > 0.02:
             beneficios.append(_t("benef_plagas", idioma, r=plan.riesgo_plaga, r0=base.riesgo_plaga))
-    beneficios.append(_t("benef_ingreso", idioma, ing=plan.ingreso_estimado))
+    if not esbase and base.ingreso_estimado > 0:  # nunca en pesos: los parámetros de ingreso son de ejemplo, solo la comparación relativa
+        beneficios.append(_t("benef_ingreso", idioma, pct=(plan.ingreso_estimado / base.ingreso_estimado - 1) * 100))
+    beneficios.append(_t("benef_nota", idioma))
 
     evidencia: list[str] = []
     gaps: list[str] = []
