@@ -11,9 +11,6 @@ const es = {
   landing: {
     titulo: 'Decida qué sembrar, con datos de la NASA.',
     sub: 'Dibuje su parcela, pregunte y decida.',
-    sat: 'de resolución',
-    capas: 'capas de satélite',
-    estrategias: 'estrategias comparadas',
     productor: 'Soy productor',
     productorSub: 'Dibuje su parcela y converse.',
     experto: 'Soy experto',
@@ -22,7 +19,7 @@ const es = {
     nasa: 'Datos de la NASA: SMAP, GPM/IMERG, Landsat, MODIS, ECOSTRESS, SRTM, GRACE-FO y NASA POWER.',
   },
   areas: { suelos: 'Suelos', patogenos: 'Patógenos', agua: 'Agua', clima: 'Clima', mercado: 'Mercado', cultivos: 'Cultivos' },
-  nav: { chat: 'Conversación', mapa: 'Mi parcela (mapa)', reportes: 'Reportes revisados', salir: 'Salir', nueva: '+ Nueva conversación', recientes: 'Recientes' },
+  nav: { inicio: 'Inicio', chat: 'Conversación', mapa: 'Mi parcela (mapa)', reportes: 'Reportes revisados', salir: 'Salir', nueva: '+ Nueva conversación', recientes: 'Recientes' },
   mapa: {
     paso: 'Paso 1 de 2 · Mi parcela',
     buscar: 'Buscar mi pueblo o ejido…',
@@ -145,15 +142,12 @@ const es = {
 };
 
 const en: typeof es = {
-  app: 'Milpa Project',
+  app: 'SELITH AGRO',
   demo: 'Demo access',
   demoNota: 'Simulated access: no email or password. Example data; parameters are not yet validated by experts.',
   landing: {
     titulo: 'Decide what to plant, with NASA data.',
     sub: 'Draw your parcel, ask, and decide.',
-    sat: 'resolution',
-    capas: 'satellite layers',
-    estrategias: 'strategies compared',
     productor: "I'm a farmer",
     productorSub: 'Draw your parcel and talk.',
     experto: "I'm an expert",
@@ -162,7 +156,7 @@ const en: typeof es = {
     nasa: 'NASA data: SMAP, GPM/IMERG, Landsat, MODIS, ECOSTRESS, SRTM, GRACE-FO and NASA POWER.',
   },
   areas: { suelos: 'Soils', patogenos: 'Pathogens', agua: 'Water', clima: 'Climate', mercado: 'Market', cultivos: 'Crops' },
-  nav: { chat: 'Conversation', mapa: 'My field (map)', reportes: 'Reviewed reports', salir: 'Sign out', nueva: '+ New conversation', recientes: 'Recent' },
+  nav: { inicio: 'Home', chat: 'Conversation', mapa: 'My field (map)', reportes: 'Reviewed reports', salir: 'Sign out', nueva: '+ New conversation', recientes: 'Recent' },
   mapa: {
     paso: 'Step 1 of 2 · My field',
     buscar: 'Search for your town or ejido…',

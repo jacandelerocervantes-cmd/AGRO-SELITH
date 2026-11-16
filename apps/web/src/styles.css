@@ -45,10 +45,7 @@ h1{font-size:44px;line-height:1.1;margin:0 0 16px;font-weight:700;font-family:Ge
 .rol h2{font-size:26px;font-family:Georgia,'Source Serif 4',serif}
 .rol p{color:var(--mut);font-size:18px}
 .rol .rol-pie{margin-top:auto}.rol .big{width:100%}
-.datos-fila{list-style:none;display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin:26px 0 8px;padding:0}
-.datos-fila li{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:8px 16px;font-size:17px}
-.datos-fila b{font-size:22px;color:var(--brand)}
-.nota-demo{color:#fff;font-size:14px;max-width:640px;text-shadow:0 1px 8px #000b;margin:6px 0 0}
+.nota-demo{color:#fff;font-size:14px;max-width:640px;text-shadow:0 1px 8px #000b;margin:22px 0 0}
 @media (max-width:700px){.roles{grid-template-columns:1fr}.landing-centro .sub{font-size:20px}}
 
 /* Pantalla del mapa */

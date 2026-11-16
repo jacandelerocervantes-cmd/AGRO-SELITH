@@ -19,7 +19,7 @@ const poligono = (v: LngLat[]): GeoJSON.Feature<GeoJSON.Polygon> => ({
 /** Paso 1: el productor delimita su parcela sobre la imagen satelital y ve su superficie en m². */
 export default function MapaParcela() {
   const { t } = useTranslation();
-  const { setParcela, ir, parcelaId } = useSession();
+  const { setParcela, ir, parcelaId, salir } = useSession();
   const qc = useQueryClient();
   const el = useRef<HTMLDivElement>(null);
   const [mapa, setMapa] = useState<maplibregl.Map | null>(null);
@@ -117,6 +117,7 @@ export default function MapaParcela() {
     <div className="pantalla-mapa" data-testid="pantalla-mapa">
       <div ref={el} className="mapa-lleno" data-testid="mapa" data-listo={mapa ? '1' : '0'} />
       <div className="sup">
+        <button className="big" data-testid="inicio" onClick={salir}>← {t('nav.inicio')}</button>
         <div className="card marca"><b>{t('app')}</b><span>{t('mapa.paso')}</span></div>
         <div className="card buscador">
           <input aria-label={t('mapa.buscar')} placeholder={t('mapa.buscar')} value={busca} onChange={(e) => setBusca(e.target.value)}

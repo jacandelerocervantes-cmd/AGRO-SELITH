@@ -152,3 +152,12 @@ test('sin señal: el mensaje se guarda en el navegador y se envía al volver la 
     return (await r.json()).some((c: { titulo: string }) => texto.startsWith(c.titulo.slice(0, 40)));
   }).toBeTruthy();
 });
+
+test('desde el mapa se puede volver a la portada', async ({ page }) => {
+  await limpio(page);
+  await page.getByTestId('entrar-productor').click();
+  await expect(page.getByTestId('pantalla-mapa')).toBeVisible();
+  await page.getByTestId('inicio').click();
+  await expect(page.getByTestId('landing')).toBeVisible();
+  await expect(page.getByTestId('entrar-productor')).toBeVisible();
+});

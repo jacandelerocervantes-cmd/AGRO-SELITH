@@ -42,11 +42,6 @@ export default function Landing() {
             </div>
           </div>
         </div>
-        <ul className="datos-fila" aria-label={t('landing.nasa')}>
-          <li><b>10 m</b> {t('landing.sat')}</li>
-          <li><b>11</b> {t('landing.capas')}</li>
-          <li><b>3</b> {t('landing.estrategias')}</li>
-        </ul>
         <p className="nota-demo">{t('demoNota')}</p>
       </main>
     </div>
