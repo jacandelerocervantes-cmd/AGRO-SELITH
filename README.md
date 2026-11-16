@@ -49,7 +49,7 @@ $env:EARTHDATA_PASSWORD = 'contraseña'
 uv run python scripts/cargar_capas.py auto
 ```
 
-Sin cuenta, esas capas salen como ejemplo rotulado. Nunca guardes credenciales en el repositorio (`.env` está ignorado).
+Ya hay datos reales grabados de Tizimín de IMERG, GLDAS, ECOSTRESS y GRACE-FO (la demo los usa sin cuenta). SMAP y GEDI quedan como ejemplo rotulado hasta cargarlos. Nunca guardes credenciales en el repositorio (`.env` está ignorado).
 
 ## Asistente de IA (opcional)
 Con `ANTHROPIC_API_KEY` el chat usa Claude (Sonnet 5.5, respaldo Haiku 5.5, `config/llm.yaml`). Sin llave responde con un resumen determinista de las tres estrategias. El texto del usuario se trata como dato (saneado y delimitado) y la respuesta del modelo se filtra.

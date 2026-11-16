@@ -115,3 +115,16 @@ def test_gaez_real_de_tizimin_tiene_los_cuatro_escenarios_para_cada_cultivo() ->
     maiz = d["Maize"]
     assert maiz["hist_alto"]["rendimiento_kg_ms_ha"] > maiz["hist_bajo"]["rendimiento_kg_ms_ha"]  # más insumos, más rendimiento
     assert maiz["fut85"]["rendimiento_kg_ms_ha"] < maiz["hist_alto"]["rendimiento_kg_ms_ha"]  # el clima futuro lo reduce
+
+
+def test_earthdata_reales_grabados_son_plausibles_y_no_sinteticos() -> None:
+    imerg = _f("imerg")["serie"]
+    assert len(imerg) >= 20 and all(0 <= x["valor"] < 400 for x in imerg) and max(x["valor"] for x in imerg) > 5  # llueve en temporada
+    gldas = [x["valor"] for x in _f("gldas")["serie"]]
+    assert len(gldas) >= 5 and all(5 < v < 60 for v in gldas)  # humedad 0-10 cm en kg/m²
+    eco = _f("ecostress")["serie"]
+    assert len(eco) >= 5 and all(10 < x["valor"] < 60 for x in eco) and _f("ecostress")["resolucion_m"] == 70
+    grace = [x["valor"] for x in _f("grace")["serie"]]
+    assert len(grace) >= 5 and max(grace) - min(grace) > 1
+    for n in ("imerg", "gldas", "ecostress", "grace"):
+        assert "sintetico" not in _f(n)
