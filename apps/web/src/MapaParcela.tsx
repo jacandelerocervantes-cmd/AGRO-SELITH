@@ -39,9 +39,7 @@ export default function MapaParcela() {
       m.addSource('dibujo', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
       m.addLayer({ id: 'dibujo-relleno', type: 'fill', source: 'dibujo', filter: ['==', '$type', 'Polygon'], paint: { 'fill-color': '#e0a42f', 'fill-opacity': 0.4 } });
       m.addLayer({ id: 'dibujo-linea', type: 'line', source: 'dibujo', paint: { 'line-color': '#ffffff', 'line-width': 3 } });
-      m.addSource('existentes', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
-      m.addLayer({ id: 'existentes-linea', type: 'line', source: 'existentes', paint: { 'line-color': '#4aa3ff', 'line-width': 3 } });
-      setMapa(m);
+        setMapa(m);
     });
     m.on('click', (e) => setVertices((v) => [...v, [e.lngLat.lng, e.lngLat.lat]]));
     return () => m.remove();
@@ -71,13 +69,7 @@ export default function MapaParcela() {
     });
   }, [mapa, vertices]);
 
-  // Parcelas ya guardadas
-  useEffect(() => {
-    if (!mapa || !existentes.data) return;
-    (mapa.getSource('existentes') as maplibregl.GeoJSONSource).setData({
-      type: 'FeatureCollection', features: existentes.data.map((p) => ({ type: 'Feature', properties: { id: p.id }, geometry: p.geom })),
-    });
-  }, [mapa, existentes.data]);
+  // Las parcelas guardadas (incluidas las de ejemplo de la demo) no se dibujan aquí: esta pantalla es para marcar una nueva.
 
   const m2 = vertices.length >= 3 ? area(poligono(vertices)) : 0;
   const cruzado = vertices.length >= 4 && kinks(poligono(vertices)).features.length > 0;
