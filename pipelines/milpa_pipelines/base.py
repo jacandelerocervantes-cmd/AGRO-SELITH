@@ -9,6 +9,7 @@ from __future__ import annotations
 import hashlib
 import json
 import logging
+import os
 import time
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
@@ -81,6 +82,9 @@ class Conector(ABC):
         )
 
     def obtener(self, **p: Any) -> Resultado:
+        if self.modo == "auto" and os.environ.get("MILPA_USAR_CACHE") == "1" and self._ruta_cache(p).exists():
+            # recarga rápida: reutiliza lo ya descargado (útil si una capa lenta interrumpió una corrida anterior)
+            return self._res(json.loads(self._ruta_cache(p).read_text(encoding="utf-8")), "cache", False, p)
         if self.modo == "auto":
             crudo = self._vivo(p)
             if crudo is not None:

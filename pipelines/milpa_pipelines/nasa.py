@@ -224,7 +224,7 @@ class Smap(Conector):
         ea = _earthdata()
         res = ea.search_data(short_name="SPL3SMP_E", bounding_box=_caja(p["lat"], p["lon"], 0.2),
                              temporal=(p["inicio"], p["fin"]), count=400)
-        res = res[::6]  # ~1 de cada 6 días: basta para la tendencia y evita bajar cientos de archivos
+        res = res[:: int(os.environ.get("MILPA_SMAP_PASO", "30"))]  # pocos días: cada archivo de SMAP es grande y lento
         serie = []
         for r, f in zip(res, ea.open(res), strict=False):
             with xr.open_dataset(f, group="Soil_Moisture_Retrieval_Data_AM", engine="h5netcdf", phony_dims="sort") as ds:

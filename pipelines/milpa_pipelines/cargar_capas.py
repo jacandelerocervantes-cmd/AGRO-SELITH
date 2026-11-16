@@ -39,9 +39,10 @@ def cargar_capas(conn: psycopg.Connection, modo: str = "demo", periodo: tuple[st
     filas: list[tuple[Any, ...]] = []
     estado: dict[str, dict[str, Any]] = {}
 
+    excluir = {c.strip() for c in os.environ.get("MILPA_EXCLUIR", "").split(",") if c.strip()}
     solo = {c.strip() for c in os.environ.get("MILPA_CAPAS", "").split(",") if c.strip()}
     for capa, cls in CAPAS_NASA.items():
-        if solo and capa not in solo:
+        if (solo and capa not in solo) or capa in excluir:
             continue
         t0 = time.monotonic()
         print(f"[{capa}] consultando...", flush=True)
