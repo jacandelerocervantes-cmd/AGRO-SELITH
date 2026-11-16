@@ -14,11 +14,6 @@ const AREAS = ['suelos', 'patogenos', 'agua', 'clima', 'mercado', 'cultivos'] as
 
 /** Vista del experto: también es una conversación, pero su contenido es una cola de solicitudes de SU área,
  *  repartida al azar. La cola total se subdivide por área de agronomía. */
-interface Validacion {
-  ndvi_sentinel2_10m_vs_naip: { correlacion: number };
-  soilgrids_vs_ssurgo: { arcilla_pct: { error_relativo: number }; arena_pct: { error_relativo: number }; materia_organica_pct: { error_relativo: number } };
-}
-
 export default function ExpertoCola() {
   const { t } = useTranslation();
   const lang = idiomaActual();
@@ -30,7 +25,6 @@ export default function ExpertoCola() {
   const [fuentes, setFuentes] = useState('');
   const [hecho, setHecho] = useState(false);
 
-  const val = useQuery<Validacion>({ queryKey: ['validacion'], queryFn: () => api('/referencia/validacion'), retry: false, staleTime: Infinity });
   const cola = useQuery<Cola>({ queryKey: ['cola'], queryFn: () => api('/experto/cola'), refetchInterval: 10_000, staleTime: 0 });
   const dictado = useDictado(lang, (x) => setTexto((p) => `${p} ${x}`.trim()));
 
@@ -78,16 +72,6 @@ export default function ExpertoCola() {
           ))}
         </div>
         <small className="nota">{t('experto.nota')}</small>
-        {val.data && (
-          <details data-testid="validacion-eeuu">
-            <summary>{t('experto.valTitulo')}</summary>
-            <ul>
-              <li>{t('experto.valNdvi', { res: 10, r: val.data.ndvi_sentinel2_10m_vs_naip.correlacion.toFixed(2) })}</li>
-              <li>{t('experto.valSuelo', { tex: Math.round(((val.data.soilgrids_vs_ssurgo.arcilla_pct.error_relativo + val.data.soilgrids_vs_ssurgo.arena_pct.error_relativo) / 2) * 100), mo: Math.round(val.data.soilgrids_vs_ssurgo.materia_organica_pct.error_relativo * 100) })}</li>
-            </ul>
-            <small className="nota">{t('experto.valPie')}</small>
-          </details>
-        )}
         <button className="big p" disabled={tomar.isPending} onClick={() => tomar.mutate()} data-testid="tomar">{t('experto.tomar')}</button>
         <div className="pie-lateral">
           <RedEstado etiqueta={{ con: lang === 'en' ? 'Online' : 'Con señal', sin: lang === 'en' ? 'Offline' : 'Sin señal', porEnviar: lang === 'en' ? 'to send' : 'por enviar' }} />

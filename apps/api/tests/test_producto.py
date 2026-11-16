@@ -324,9 +324,3 @@ def test_la_evidencia_de_las_estrategias_cita_gaez_y_su_riesgo(cli, pid) -> None
     assert any("FAO GAEZ" in x and "17/100" in x for x in e["evidencia"])
     assert any("GAEZ" in r for r in e["riesgos"])
 
-
-def test_validacion_eeuu_se_expone_con_numeros_reales(cli) -> None:  # type: ignore[no-untyped-def]  # noqa: F811
-    r = cli.get("/referencia/validacion")
-    assert r.status_code == 200
-    d = r.json()
-    assert d["ndvi_sentinel2_10m_vs_naip"]["correlacion"] > 0.7 and "Hidalgo" in d["lugar"]["condado"]

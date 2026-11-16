@@ -94,15 +94,6 @@ def salud() -> dict[str, Any]:
     return {"ok": True, "modo_demo": modo_demo()}
 
 
-@app.get("/referencia/validacion")
-def validacion_eeuu() -> dict[str, Any]:
-    """Métricas reales de validación con datos de EE. UU. (generadas por pipelines.validacion_eeuu)."""
-    f = Path(__file__).resolve().parents[3] / "docs" / "validacion_eeuu.json"
-    if not f.exists():
-        raise HTTPException(404, "sin reporte de validación")
-    return dict(json.loads(f.read_text(encoding="utf-8")))
-
-
 @app.get("/demo/usuarios")
 def demo_usuarios(db: Any = Depends(get_db)) -> list[dict[str, Any]]:
     if not modo_demo():
