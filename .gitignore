@@ -18,6 +18,8 @@ apps/web/dist/
 # Solo local: documentación interna, notas de proceso e infraestructura no usada (no forman parte de la web app)
 /docs/*
 !/docs/validacion_eeuu.json
+!/docs/DEMO_SCRIPT.md
+!/docs/SUBMISSION_TEXTS.md
 /CLAUDE.md
 /infra/
 /scripts/deploy.ps1
