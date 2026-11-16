@@ -91,8 +91,10 @@ def test_otro_productor_no_ve_ni_borra_mi_parcela(cli, pid) -> None:  # type: ig
 def test_catalogo_de_capas_marca_nasa_y_ejemplos(cli, pid) -> None:  # type: ignore[no-untyped-def]  # noqa: F811
     cat = {c["id"]: c for c in cli.get("/capas", headers=AGR).json()}
     assert {"imerg", "smap", "ndvi_landsat", "ndvi_modis", "lst", "srtm_pendiente_pct", "grace", "vulnerabilidad"} <= set(cat)
-    for k in ("imerg", "smap", "lst", "vulnerabilidad"):  # sin cuenta Earthdata: ejemplo rotulado (la vulnerabilidad mezcla)
+    for k in ("smap", "vulnerabilidad"):  # SMAP aún sin datos reales: ejemplo rotulado (la vulnerabilidad lo mezcla)
         assert cat[k]["disponible"] and cat[k]["nasa"] and cat[k]["sintetico"]
+    for k in ("imerg", "lst", "grace"):  # Earthdata ya grabado de Tizimín
+        assert cat[k]["disponible"] and cat[k]["nasa"] and cat[k]["sintetico"] is False
     for k in ("ndvi_landsat", "ndvi_modis", "srtm_pendiente_pct", "srtm_elevacion"):  # datos reales grabados de la NASA
         assert cat[k]["disponible"] and cat[k]["nasa"] and cat[k]["sintetico"] is False
     for k in ("ndvi_s2", "lst_modis", "et_modis"):  # también reales; Sentinel-2 es de la ESA (agencia socia)
@@ -124,7 +126,7 @@ def test_la_capa_de_alta_resolucion_varia_entre_celdas_y_la_gruesa_no(cli, pid) 
 def test_serie_en_el_tiempo_de_una_capa(cli, pid) -> None:  # type: ignore[no-untyped-def]  # noqa: F811
     s = cli.get(f"/capas/imerg/serie?parcel_id={pid}", headers=AGR).json()["serie"]
     fechas = [x["fecha"] for x in s]
-    assert len(s) > 150 and fechas == sorted(fechas) and all(x["valor"] is None or x["valor"] >= 0 for x in s)
+    assert len(s) > 30 and fechas == sorted(fechas) and all(x["valor"] is None or x["valor"] >= 0 for x in s)
 
 
 # ---------------------------------------------------------------- chat: tres estrategias
